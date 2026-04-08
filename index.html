@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radar Tren Indonesia</title>
+    <meta
+      name="description"
+      content="Scanner Google Trends Indonesia dan Google News Indonesia, siap publish ke GitHub Pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+
+    <main class="container">
+      <header class="hero">
+        <p class="kicker">Realtime Snapshot</p>
+        <h1>Radar Tren Indonesia</h1>
+        <p class="subtitle">
+          Memantau Google Trends Indonesia dan Google News Indonesia secara otomatis.
+        </p>
+      </header>
+
+      <section class="status" id="statusCard">
+        <div>
+          <h2>Status Data</h2>
+          <p id="lastUpdated">Memuat data...</p>
+        </div>
+        <button id="refreshButton" type="button">Refresh</button>
+      </section>
+
+      <section class="filter-panel">
+        <div>
+          <h2>Filter Keyword</h2>
+          <p>Tampilkan topik/headline yang relevan dengan kategori tertentu.</p>
+        </div>
+        <div class="filter-controls">
+          <div class="chip-group" role="group" aria-label="Preset keyword">
+            <button class="chip active" data-filter="all" type="button">Semua</button>
+            <button class="chip" data-filter="politik" type="button">Politik</button>
+            <button class="chip" data-filter="ekonomi" type="button">Ekonomi</button>
+            <button class="chip" data-filter="bola" type="button">Bola</button>
+          </div>
+          <div class="filter-row">
+            <label for="customFilter" class="sr-only">Keyword kustom</label>
+            <input id="customFilter" type="text" placeholder="Atau ketik keyword sendiri..." />
+            <button id="savePresetButton" class="mini-button" type="button">Simpan Preset</button>
+          </div>
+          <div id="favoriteKeywords" class="favorite-list" aria-label="Preset favorit"></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card" id="trendsCard">
+          <div class="card-head">
+            <h2>Google Trends Indonesia</h2>
+            <span class="badge">Topik Hangat</span>
+          </div>
+          <div id="trendsFormat" class="formatted-block"></div>
+        </article>
+
+        <article class="card" id="newsCard">
+          <div class="card-head">
+            <h2>Google News Indonesia</h2>
+            <span class="badge badge-alt">Headline</span>
+          </div>
+          <div id="newsFormat" class="formatted-block"></div>
+        </article>
+      </section>
+
+      <section class="card" id="exportCard">
+        <div class="card-head">
+          <h2>Export Teks Mentah</h2>
+          <span class="badge">Siap Copy</span>
+        </div>
+        <p class="chart-caption">Format teks sesuai template posting kamu.</p>
+        <div class="export-actions">
+          <button id="copyAllButton" type="button">Copy Semua</button>
+          <button id="copyTrendsButton" class="mini-button" type="button">Copy Trending</button>
+          <button id="copyNewsButton" class="mini-button" type="button">Copy News</button>
+        </div>
+        <p id="copyStatus" class="copy-status" aria-live="polite"></p>
+        <textarea id="rawExportOutput" class="raw-output" readonly></textarea>
+      </section>
+
+      <section class="chart-grid">
+        <article class="card chart-card" id="trendChartCard">
+          <div class="card-head">
+            <h2>Chart Tren Harian</h2>
+            <span class="badge">Google Trends</span>
+          </div>
+          <p class="chart-caption">Jumlah topik Google Trends yang terbit per jam (hari ini).</p>
+          <div class="chart-wrap">
+            <svg id="dailyChart" viewBox="0 0 780 260" role="img" aria-label="Chart tren harian"></svg>
+          </div>
+        </article>
+
+        <article class="card chart-card" id="newsChartCard">
+          <div class="card-head">
+            <h2>Chart News Harian</h2>
+            <span class="badge badge-alt">Google News</span>
+          </div>
+          <p class="chart-caption">Jumlah headline Google News yang terbit per jam (hari ini).</p>
+          <div class="chart-wrap">
+            <svg id="newsChart" viewBox="0 0 780 260" role="img" aria-label="Chart news harian"></svg>
+          </div>
+        </article>
+
+        <div class="chart-legend" aria-label="Legenda chart">
+          <span><i class="dot dot-trends"></i> Google Trends</span>
+          <span><i class="dot dot-news"></i> Google News</span>
+          <button id="overlayToggle" class="legend-toggle" type="button" aria-pressed="false">Aktifkan Overlay</button>
+        </div>
+
+        <article class="card chart-card" id="combinedChartCard" hidden>
+          <div class="card-head">
+            <h2>Overlay Perbandingan</h2>
+            <span class="badge">Trends vs News</span>
+          </div>
+          <p class="chart-caption">Perbandingan kurva jumlah item per jam pada hari ini.</p>
+          <div class="chart-wrap">
+            <svg id="combinedChart" viewBox="0 0 780 260" role="img" aria-label="Chart overlay perbandingan"></svg>
+          </div>
+        </article>
+      </section>
+
+      <div id="chartTooltip" class="chart-tooltip" hidden></div>
+    </main>
+
+    <template id="emptyStateTemplate">
+      <div class="empty-state">Data belum tersedia. Coba lagi nanti.</div>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
