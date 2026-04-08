@@ -31,8 +31,11 @@ const DATA_PATHS = {
 };
 
 const API_ENDPOINTS = {
-  data: "/api/data"
+  data: "/api/data",
+  refresh: "/api/refresh"
 };
+
+const ADMIN_TOKEN_SESSION_KEY = "radar-tren-admin-token";
 
 const trendsFormat = document.getElementById("trendsFormat");
 const newsFormat = document.getElementById("newsFormat");
@@ -1254,7 +1257,47 @@ async function loadData() {
   }
 }
 
-refreshButton.addEventListener("click", loadData);
+async function requestRefreshFromServer() {
+  let token = sessionStorage.getItem(ADMIN_TOKEN_SESSION_KEY) || "";
+  if (!token) {
+    token = window.prompt("Masukkan ADMIN_TOKEN untuk refresh data terbaru:", "") || "";
+    token = token.trim();
+    if (!token) {
+      throw new Error("Refresh dibatalkan (token kosong)");
+    }
+    sessionStorage.setItem(ADMIN_TOKEN_SESSION_KEY, token);
+  }
+
+  const response = await fetch(API_ENDPOINTS.refresh, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ token })
+  });
+
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    if (response.status === 401) {
+      sessionStorage.removeItem(ADMIN_TOKEN_SESSION_KEY);
+    }
+    throw new Error(payload.error || `Refresh gagal (${response.status})`);
+  }
+}
+
+refreshButton.addEventListener("click", async () => {
+  refreshButton.disabled = true;
+  refreshButton.textContent = "Refreshing...";
+
+  try {
+    await requestRefreshFromServer();
+    await loadData();
+  } catch (error) {
+    lastUpdatedEl.textContent = `Error: ${error.message}`;
+    refreshButton.disabled = false;
+    refreshButton.textContent = "Refresh";
+  }
+});
 loadFilterState();
 applyFilterStateToUI();
 setupFilterEvents();
