@@ -17,6 +17,20 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
+    <!-- Password Gate -->
+    <div id="passwordGate">
+      <div class="gate-card">
+        <p class="kicker">Akses Terbatas</p>
+        <h2>Masukkan Password</h2>
+        <p class="gate-desc">Halaman ini dilindungi. Masukkan password untuk melanjutkan.</p>
+        <form id="gateForm" autocomplete="off">
+          <input id="gateInput" type="password" placeholder="Password..." autocomplete="current-password" />
+          <p id="gateError" class="gate-error" hidden>Password salah. Coba lagi.</p>
+          <button type="submit">Masuk</button>
+        </form>
+      </div>
+    </div>
+
     <div class="bg-orb orb-a" aria-hidden="true"></div>
     <div class="bg-orb orb-b" aria-hidden="true"></div>
 

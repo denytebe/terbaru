@@ -1,3 +1,30 @@
+// ── Password Gate ────────────────────────────────────────────
+(function () {
+  const GATE_KEY = "radar-tren-auth";
+  const gate = document.getElementById("passwordGate");
+  if (!gate) return;
+
+  // Cek apakah sudah pernah login di sesi ini
+  if (sessionStorage.getItem(GATE_KEY) === "1") {
+    gate.classList.add("hidden");
+    return;
+  }
+
+  document.getElementById("gateForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const val = document.getElementById("gateInput").value;
+    if (val === atob("Y2lza2VrMTIz")) {
+      sessionStorage.setItem(GATE_KEY, "1");
+      gate.classList.add("hidden");
+    } else {
+      const err = document.getElementById("gateError");
+      err.hidden = false;
+      document.getElementById("gateInput").value = "";
+      document.getElementById("gateInput").focus();
+    }
+  });
+})();
+
 const DATA_PATHS = {
   trends: "./data/trends-id.json",
   news: "./data/news-id.json"

@@ -516,3 +516,87 @@ button {
     align-items: stretch;
   }
 }
+
+/* ── Password Gate ──────────────────────────────────────── */
+#passwordGate {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 10% 15%, #f7d8b5 0, transparent 38%),
+    radial-gradient(circle at 90% 0, #f7dcbf 0, transparent 36%),
+    var(--bg);
+}
+
+#passwordGate.hidden {
+  display: none;
+}
+
+.gate-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.2rem;
+  padding: 2.5rem 2.5rem 2rem;
+  width: min(400px, 92vw);
+  box-shadow: var(--shadow);
+}
+
+.gate-card h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.6rem;
+  margin: 0.3rem 0 0.6rem;
+}
+
+.gate-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 1.5rem;
+}
+
+#gateForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#gateInput {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: var(--surface-strong);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+#gateInput:focus {
+  border-color: var(--brand);
+}
+
+#gateForm button[type="submit"] {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#gateForm button[type="submit"]:hover {
+  opacity: 0.88;
+}
+
+.gate-error {
+  color: #c0392b;
+  font-size: 0.85rem;
+  margin: 0;
+}
