@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch-data": "node scripts/fetch-data.mjs",
-    "start": "serve . -l 4173",
+    "start": "node server.mjs",
+    "start:static": "serve . -l 4173",
     "scrape-trends-browser": "node scripts/scrape-trending-browser.mjs",
     "scrape-news-browser": "node scripts/scrape-news-browser.mjs"
   },
@@ -13,5 +14,8 @@
     "google-trends-api": "^4.9.2",
     "puppeteer": "^24.7.2",
     "serve": "^14.2.6"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }

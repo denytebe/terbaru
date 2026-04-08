@@ -30,6 +30,10 @@ const DATA_PATHS = {
   news: "./data/news-id.json"
 };
 
+const API_ENDPOINTS = {
+  data: "/api/data"
+};
+
 const trendsFormat = document.getElementById("trendsFormat");
 const newsFormat = document.getElementById("newsFormat");
 const lastUpdatedEl = document.getElementById("lastUpdated");
@@ -1228,10 +1232,9 @@ async function loadData() {
   refreshButton.textContent = "Loading...";
 
   try {
-    const [trends, news] = await Promise.all([
-      fetchJson(DATA_PATHS.trends),
-      fetchJson(DATA_PATHS.news)
-    ]);
+    const payload = await fetchJson(API_ENDPOINTS.data);
+    const trends = payload.trends || {};
+    const news = payload.news || {};
 
     state.trendsItems = Array.isArray(trends.items) ? trends.items : [];
     state.newsItems = Array.isArray(news.items) ? news.items : [];
