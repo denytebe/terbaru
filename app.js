@@ -1185,7 +1185,9 @@ function applyFilterStateToUI() {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(path, { cache: "no-store" });
+  // Add a cache-busting query to avoid stale CDN/browser JSON responses.
+  const url = `${path}${path.includes("?") ? "&" : "?"}_ts=${Date.now()}`;
+  const response = await fetch(url, { cache: "no-store" });
 
   if (!response.ok) {
     throw new Error(`Gagal mengambil ${path}: ${response.status}`);
