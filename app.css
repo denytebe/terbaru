@@ -166,6 +166,26 @@ button {
   border: none;
 }
 
+.news-error-box {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  background: #fff8f0;
+  border: 1px solid #f0d0b0;
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: #5a3820;
+  line-height: 1.5;
+}
+
+.news-error-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
 .formatted-block {
   margin-top: 0.95rem;
 }

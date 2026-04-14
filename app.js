@@ -716,20 +716,23 @@ function detectNewsCategoryFromItem(item) {
 function renderNews(items) {
   newsFormat.innerHTML = "";
 
-  if ((!Array.isArray(items) || items.length === 0) && state.newsErrorMessage) {
+  if (!Array.isArray(items) || items.length === 0) {
+    const msg = state.newsErrorMessage;
+    let icon = "⚠️";
+    if (msg.startsWith("Diblokir")) icon = "🚫";
+    else if (msg.startsWith("Timeout")) icon = "⏱️";
+    else if (msg.startsWith("Error koneksi")) icon = "🔌";
+    else if (msg.startsWith("Tidak ada berita")) icon = "🔍";
+
+    const detail = msg
+      ? `<div class="news-error-box"><span class="news-error-icon">${icon}</span><span>${escapeXml(msg)}</span></div>`
+      : `<div class="news-error-box"><span class="news-error-icon">ℹ️</span><span>Data belum tersedia. Coba tekan Refresh.</span></div>`;
+
     newsFormat.innerHTML = `
       <p class="format-emph">*googlenews*</p>
       <p class="format-emph">*${formatDateForNewsHeader(state.newsLastUpdated)}*</p>
-      <section class="format-group">
-        <p class="format-emph">*status*</p>
-        <ol class="format-list"><li>${escapeXml(state.newsErrorMessage)}</li></ol>
-      </section>
+      ${detail}
     `;
-    return;
-  }
-
-  if (!Array.isArray(items) || items.length === 0) {
-    applyEmptyState(newsFormat);
     return;
   }
 
@@ -837,7 +840,8 @@ async function requestRefreshFromServer() {
     if (response.status === 401) {
       sessionStorage.removeItem(ADMIN_TOKEN_SESSION_KEY);
     }
-    throw new Error(payload.error || `Refresh gagal (${response.status})`);
+    const retryMsg = payload.retryAfterSeconds ? ` Coba lagi dalam ${payload.retryAfterSeconds} detik.` : "";
+    throw new Error((payload.error || `Refresh gagal (${response.status})`) + retryMsg);
   }
 }
 

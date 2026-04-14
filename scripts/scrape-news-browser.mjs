@@ -75,6 +75,13 @@ async function dismissCookieBanner(page) {
 
 async function scrapeTopicPage(page, category, url, maxPerCategory) {
   await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+
+  // Deteksi blokir / CAPTCHA dari Google
+  const pageTitle = await page.title();
+  if (/before you continue|unusual traffic|captcha|sorry|verif|blocked/i.test(pageTitle)) {
+    throw new Error(`BLOCKED: Google menampilkan halaman blokir — "${pageTitle}". IP server kemungkinan kena rate-limit.`);
+  }
+
   await dismissCookieBanner(page);
   await delay(1200);
 
@@ -179,6 +186,11 @@ export async function scrapeNewsByTopics(options = {}) {
       seen.add(key);
       unique.push(item);
     });
+
+    // Deteksi kalau semua kategori tidak menghasilkan apapun
+    if (unique.length === 0) {
+      throw new Error("EMPTY: Semua kategori menghasilkan 0 artikel. Kemungkinan struktur halaman Google News berubah atau selector CSS tidak cocok lagi.");
+    }
 
     return unique;
   } finally {

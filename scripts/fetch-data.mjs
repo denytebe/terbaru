@@ -151,8 +151,21 @@ async function run() {
     });
   } catch (error) {
     newsScrapeOk = false;
-    newsErrorMessage = `Tidak bisa mengambil Google News via scraping saat ini (${error.message}).`;
-    console.warn(newsErrorMessage);
+    const msg = String(error.message || "");
+
+    if (msg.startsWith("BLOCKED:")) {
+      newsErrorMessage = `Diblokir Google — ${msg.replace("BLOCKED:", "").trim()} Coba lagi beberapa menit kemudian.`;
+    } else if (msg.startsWith("EMPTY:")) {
+      newsErrorMessage = `Tidak ada berita ditemukan — ${msg.replace("EMPTY:", "").trim()}`;
+    } else if (/timeout/i.test(msg) || /TimeoutError/.test(error.name || "")) {
+      newsErrorMessage = `Timeout — Google News terlalu lama merespons (>60 detik). Mungkin koneksi server lambat atau Google sedang membatasi akses.`;
+    } else if (/net::|ECONNREFUSED|ENOTFOUND|ERR_NAME/i.test(msg)) {
+      newsErrorMessage = `Error koneksi — Tidak bisa menjangkau Google News. Periksa koneksi internet server. (${msg})`;
+    } else {
+      newsErrorMessage = `Gagal mengambil Google News — ${msg}`;
+    }
+
+    console.warn("[news-error]", newsErrorMessage);
     newsItems = [];
   }
 
