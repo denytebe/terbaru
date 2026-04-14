@@ -81,26 +81,36 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
   const rows = await page.evaluate((maxItems) => {
     const clean = (value) => String(value || "").replace(/\s+/g, " ").trim();
 
-    const findRelativeTime = (node) => {
-      const pattern =
-        /(\d+\s*(menit|jam|hari|minggu|bulan|tahun)\s*lalu|\d+\s*(minute|hour|day|week|month|year)s?\s*ago|\d+\s*[mhdwy]\s*ago)/i;
+    const TIME_PATTERN =
+      /(\d+)\s*(menit|jam|hari|minggu|bulan|tahun|minute|hour|day|week|month|year)/i;
 
+    const findRelativeTime = (node) => {
+      // Cari teks waktu relatif dari dalam container cluster ke atas
+      const candidates = node.querySelectorAll("time, [class*='time'], [class*='date'], span, div");
+      for (const el of candidates) {
+        const text = clean(el.textContent || "");
+        const match = text.match(TIME_PATTERN);
+        if (match && text.length < 40) {
+          return clean(text);
+        }
+      }
+      // Fallback: cari di parentElement
       let current = node;
-      for (let depth = 0; depth < 6 && current; depth += 1) {
+      for (let depth = 0; depth < 5 && current; depth += 1) {
         const text = clean(current.textContent || "");
-        const match = text.match(pattern);
+        const match = text.match(TIME_PATTERN);
         if (match) {
-          return clean(match[1]);
+          // Ambil match paling pendek (bukan seluruh paragraf)
+          const snippet = text.match(/\d+\s*(menit|jam|hari|minggu|minute|hour|day|week)[^.]{0,15}/i);
+          if (snippet) return clean(snippet[0]);
         }
         current = current.parentElement;
       }
-
       return "";
     };
 
     const parseMinutesAgo = (text) => {
-      const s = String(text || "").toLowerCase();
-      const m = s.match(/(\d+)\s*(menit|jam|hari|minggu|minute|hour|day|week)/);
+      const m = String(text || "").toLowerCase().match(/(\d+)\s*(menit|jam|hari|minggu|minute|hour|day|week)/);
       if (!m) return 99999;
       const n = Number(m[1]);
       const u = m[2];
@@ -111,29 +121,46 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
       return 99999;
     };
 
-    const readLinks = Array.from(document.querySelectorAll("a[href^='./read/'], a[href*='/read/']"));
     const result = [];
     const seen = new Set();
 
-    for (const anchor of readLinks) {
+    // Tiap <article> di Google News = satu topic cluster
+    const clusters = Array.from(document.querySelectorAll("article"));
+
+    for (const cluster of clusters) {
+      // Ambil link utama (headline pertama) dari cluster ini
+      const anchor = cluster.querySelector("a[href^='./read/'], a[href*='/read/']");
+      if (!anchor) continue;
+
       const title = clean(anchor.textContent || anchor.getAttribute("aria-label") || "");
       const href = clean(anchor.getAttribute("href"));
-      const pubDateText = findRelativeTime(anchor);
 
-      if (!title || title.length < 12) {
-        continue;
-      }
+      if (!title || title.length < 12) continue;
 
       const key = `${title}|${href}`;
-      if (seen.has(key)) {
-        continue;
-      }
-
+      if (seen.has(key)) continue;
       seen.add(key);
+
+      const pubDateText = findRelativeTime(cluster);
       result.push({ title, href, pubDate: "", pubDateText, minutesAgo: parseMinutesAgo(pubDateText) });
     }
 
-    // Urutkan dari yang paling baru, baru ambil N teratas
+    // Fallback: kalau tidak ada <article>, pakai pendekatan link langsung
+    if (!result.length) {
+      const readLinks = Array.from(document.querySelectorAll("a[href^='./read/'], a[href*='/read/']"));
+      for (const anchor of readLinks) {
+        const title = clean(anchor.textContent || anchor.getAttribute("aria-label") || "");
+        const href = clean(anchor.getAttribute("href"));
+        if (!title || title.length < 12) continue;
+        const key = `${title}|${href}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        const pubDateText = findRelativeTime(anchor);
+        result.push({ title, href, pubDate: "", pubDateText, minutesAgo: parseMinutesAgo(pubDateText) });
+      }
+    }
+
+    // Urutkan dari yang paling baru, ambil N teratas
     result.sort((a, b) => a.minutesAgo - b.minutesAgo);
     return result.slice(0, maxItems);
   }, maxPerCategory);
