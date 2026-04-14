@@ -4,7 +4,6 @@
   const gate = document.getElementById("passwordGate");
   if (!gate) return;
 
-  // Cek apakah sudah pernah login di sesi ini
   if (sessionStorage.getItem(GATE_KEY) === "1") {
     gate.classList.add("hidden");
     return;
@@ -25,11 +24,6 @@
   });
 })();
 
-const DATA_PATHS = {
-  trends: "./data/trends-id.json",
-  news: "./data/news-id.json"
-};
-
 const API_ENDPOINTS = {
   data: "/api/data",
   refresh: "/api/refresh"
@@ -42,41 +36,11 @@ const newsFormat = document.getElementById("newsFormat");
 const lastUpdatedEl = document.getElementById("lastUpdated");
 const refreshButton = document.getElementById("refreshButton");
 const emptyStateTemplate = document.getElementById("emptyStateTemplate");
-const customFilterInput = document.getElementById("customFilter");
-const savePresetButton = document.getElementById("savePresetButton");
-const favoriteKeywords = document.getElementById("favoriteKeywords");
-const chipButtons = Array.from(document.querySelectorAll(".chip"));
-const dailyChart = document.getElementById("dailyChart");
-const newsChart = document.getElementById("newsChart");
-const combinedChart = document.getElementById("combinedChart");
-const combinedChartCard = document.getElementById("combinedChartCard");
-const overlayToggle = document.getElementById("overlayToggle");
-const chartTooltip = document.getElementById("chartTooltip");
 const rawExportOutput = document.getElementById("rawExportOutput");
 const copyAllButton = document.getElementById("copyAllButton");
 const copyTrendsButton = document.getElementById("copyTrendsButton");
 const copyNewsButton = document.getElementById("copyNewsButton");
 const copyStatus = document.getElementById("copyStatus");
-
-const STORAGE_KEY = "radar-tren-filter-v1";
-
-const PRESET_FILTERS = {
-  all: [],
-  politik: ["politik", "presiden", "dpr", "pemerintah", "pilkada", "menteri"],
-  ekonomi: ["ekonomi", "inflasi", "pajak", "rupiah", "saham", "investasi", "garuda"],
-  bola: ["bola", "liga", "sepak", "fifa", "piala", "timnas", "eredivisie"]
-};
-
-const state = {
-  trendsItems: [],
-  newsItems: [],
-  newsLastUpdated: "",
-  newsErrorMessage: "",
-  activePreset: "all",
-  customKeyword: "",
-  favoriteKeywords: [],
-  overlayEnabled: false
-};
 
 const NEWS_SECTIONS = [
   "headline",
@@ -265,70 +229,29 @@ const NEWS_CATEGORY_PRIORITY = [
   "indonesia"
 ];
 
-function normalizeTime(value) {
-  if (!value) {
-    return "Belum ada timestamp";
-  }
+const state = {
+  trendsItems: [],
+  newsItems: [],
+  newsLastUpdated: "",
+  newsErrorMessage: ""
+};
 
-  const date = new Date(value);
-  return Number.isNaN(date.getTime())
-    ? String(value)
-    : date.toLocaleString("id-ID", {
-        dateStyle: "full",
-        timeStyle: "short"
-      });
-}
+// ── Refresh progress steps ──────────────────────────────────
+const REFRESH_STEPS = [
+  { afterSeconds: 0,  label: "Memulai scraping..." },
+  { afterSeconds: 5,  label: "Mengambil Google Trends..." },
+  { afterSeconds: 35, label: "Mengambil Google News..." },
+  { afterSeconds: 90, label: "Menyelesaikan proses..." }
+];
 
-function applyEmptyState(target) {
-  target.innerHTML = "";
-  target.appendChild(emptyStateTemplate.content.cloneNode(true));
-}
-
-function saveFilterState() {
-  try {
-    const favorites = state.favoriteKeywords
-      .map((keyword) => String(keyword || "").trim().toLowerCase())
-      .filter(Boolean)
-      .slice(0, 8);
-
-    localStorage.setItem(
-      STORAGE_KEY,
-      JSON.stringify({
-        activePreset: state.activePreset,
-        customKeyword: state.customKeyword,
-        favoriteKeywords: favorites,
-        overlayEnabled: state.overlayEnabled
-      })
-    );
-  } catch {
-    // Abaikan error storage agar UI tetap berjalan.
-  }
-}
-
-function loadFilterState() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) {
-      return;
+function getRefreshStepLabel(elapsedSeconds) {
+  let label = REFRESH_STEPS[0].label;
+  for (const step of REFRESH_STEPS) {
+    if (elapsedSeconds >= step.afterSeconds) {
+      label = step.label;
     }
-
-    const parsed = JSON.parse(raw);
-    const presetExists = Object.prototype.hasOwnProperty.call(
-      PRESET_FILTERS,
-      parsed.activePreset
-    );
-    state.activePreset = presetExists ? parsed.activePreset : "all";
-    state.customKeyword = String(parsed.customKeyword || "").trim().toLowerCase();
-    state.favoriteKeywords = Array.isArray(parsed.favoriteKeywords)
-      ? parsed.favoriteKeywords
-          .map((keyword) => String(keyword || "").trim().toLowerCase())
-          .filter(Boolean)
-          .slice(0, 8)
-      : [];
-    state.overlayEnabled = Boolean(parsed.overlayEnabled);
-  } catch {
-    // Abaikan state invalid.
   }
+  return label;
 }
 
 function escapeXml(value) {
@@ -338,26 +261,6 @@ function escapeXml(value) {
     .replace(/>/g, "&gt;")
     .replace(/\"/g, "&quot;")
     .replace(/'/g, "&apos;");
-}
-
-function getActiveKeywords() {
-  const presetKeywords = PRESET_FILTERS[state.activePreset] || [];
-  const custom = state.customKeyword.trim().toLowerCase();
-  return custom ? [custom] : presetKeywords;
-}
-
-function includesKeyword(text, keywords) {
-  if (!keywords.length) {
-    return true;
-  }
-
-  const source = String(text || "").toLowerCase();
-  return keywords.some((keyword) => source.includes(keyword));
-}
-
-function applyFilters(items) {
-  const keywords = getActiveKeywords();
-  return items.filter((item) => includesKeyword(item.title || item.query, keywords));
 }
 
 function parseTrafficNumber(rawValue) {
@@ -515,7 +418,6 @@ function groupNewsSections(items) {
     }
 
     const sectionLimit = NEWS_SECTION_LIMITS[section] || NEWS_SECTION_LIMIT;
-
     const primaryPool = pools[section] || [];
 
     for (const item of primaryPool) {
@@ -614,6 +516,11 @@ function updateRawExportOutput(trendsItems, newsItems) {
   rawExportOutput.value = `${trendsText}\n\n${newsText}`;
 }
 
+function applyEmptyState(target) {
+  target.innerHTML = "";
+  target.appendChild(emptyStateTemplate.content.cloneNode(true));
+}
+
 function renderTrends(items) {
   trendsFormat.innerHTML = "";
 
@@ -691,6 +598,20 @@ function normalizeNewsItem(item) {
     normalizedCategory,
     newsTimestamp
   };
+}
+
+function normalizeTime(value) {
+  if (!value) {
+    return "Belum ada timestamp";
+  }
+
+  const date = new Date(value);
+  return Number.isNaN(date.getTime())
+    ? String(value)
+    : date.toLocaleString("id-ID", {
+        dateStyle: "full",
+        timeStyle: "short"
+      });
 }
 
 function sortNewsByRecency(items) {
@@ -830,365 +751,13 @@ function renderNews(items) {
   `;
 }
 
-function getHourlyCounts(items) {
-  const counts = Array(24).fill(0);
-  const localToday = new Date().toLocaleDateString("id-ID");
-
-  items.forEach((item) => {
-    const date = new Date(item.pubDate || item.published || item.time || "");
-    if (Number.isNaN(date.getTime())) {
-      return;
-    }
-
-    if (date.toLocaleDateString("id-ID") !== localToday) {
-      return;
-    }
-
-    counts[date.getHours()] += 1;
-  });
-
-  return counts;
-}
-
-function pointsFromCounts(counts, width, height, padding, maxCount) {
-  const chartW = width - padding.left - padding.right;
-  const chartH = height - padding.top - padding.bottom;
-  const step = chartW / 23;
-
-  return counts.map((count, hour) => {
-    const x = padding.left + hour * step;
-    const y = padding.top + chartH - (count / maxCount) * chartH;
-    return { x, y, count, hour };
-  });
-}
-
-function renderHourlyChart(svg, items, config) {
-  if (!svg) {
-    return;
-  }
-
-  const counts = getHourlyCounts(items);
-
-  const maxCount = Math.max(...counts, 1);
-  const width = 780;
-  const height = 260;
-  const padding = { top: 20, right: 16, bottom: 38, left: 30 };
-  const chartW = width - padding.left - padding.right;
-  const chartH = height - padding.top - padding.bottom;
-  const slotW = chartW / 24;
-  const barW = Math.max(slotW - 4, 4);
-
-  const bars = counts
-    .map((count, hour) => {
-      const x = padding.left + hour * slotW + (slotW - barW) / 2;
-      const barHeight = (count / maxCount) * chartH;
-      const y = padding.top + (chartH - barHeight);
-      const labelNeeded = hour % 3 === 0;
-
-      return `
-        <rect class="tooltip-node bar" data-series="${config.series}" data-hour="${hour}" data-count="${count}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barW.toFixed(2)}" height="${barHeight.toFixed(2)}" rx="3" fill="${config.color}"></rect>
-        ${
-          labelNeeded
-            ? `<text x="${(x + barW / 2).toFixed(2)}" y="${height - 12}" text-anchor="middle" fill="#7a6a59" font-size="11">${hour.toString().padStart(2, "0")}</text>`
-            : ""
-        }
-      `;
-    })
-    .join("");
-
-  const gridLines = [0, 0.25, 0.5, 0.75, 1]
-    .map((scale) => {
-      const y = padding.top + chartH * scale;
-      return `<line x1="${padding.left}" y1="${y.toFixed(2)}" x2="${width - padding.right}" y2="${y.toFixed(2)}" stroke="#efdfcf" stroke-dasharray="4 4" />`;
-    })
-    .join("");
-
-  const title = `${config.titlePrefix}: ${counts.reduce((acc, n) => acc + n, 0)} item`;
-
-  svg.innerHTML = `
-    <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
-    ${gridLines}
-    ${bars}
-    <text x="${padding.left}" y="14" fill="#5e4f41" font-size="12" font-weight="600">${escapeXml(title)}</text>
-  `;
-}
-
-function renderCombinedOverlayChart(trendsItems, newsItems) {
-  if (!combinedChart) {
-    return;
-  }
-
-  const trendsCounts = getHourlyCounts(trendsItems);
-  const newsCounts = getHourlyCounts(newsItems);
-
-  const maxCount = Math.max(...trendsCounts, ...newsCounts, 1);
-  const width = 780;
-  const height = 260;
-  const padding = { top: 20, right: 16, bottom: 38, left: 30 };
-  const chartW = width - padding.left - padding.right;
-  const chartH = height - padding.top - padding.bottom;
-
-  const trendsPoints = pointsFromCounts(trendsCounts, width, height, padding, maxCount);
-  const newsPoints = pointsFromCounts(newsCounts, width, height, padding, maxCount);
-
-  const toPolyline = (points) => points.map((point) => `${point.x.toFixed(2)},${point.y.toFixed(2)}`).join(" ");
-
-  const pointNodes = (points, series, color) =>
-    points
-      .map(
-        (point) => `
-      <circle class="tooltip-node point-node" data-series="${series}" data-hour="${point.hour}" data-count="${point.count}" cx="${point.x.toFixed(2)}" cy="${point.y.toFixed(2)}" r="3.8" fill="${color}" />
-    `
-      )
-      .join("");
-
-  const gridLines = [0, 0.25, 0.5, 0.75, 1]
-    .map((scale) => {
-      const y = padding.top + chartH * scale;
-      return `<line x1="${padding.left}" y1="${y.toFixed(2)}" x2="${width - padding.right}" y2="${y.toFixed(2)}" stroke="#efdfcf" stroke-dasharray="4 4" />`;
-    })
-    .join("");
-
-  const hourLabels = Array.from({ length: 24 }, (_, hour) => {
-    if (hour % 3 !== 0) {
-      return "";
-    }
-
-    const x = padding.left + (hour / 23) * chartW;
-    return `<text x="${x.toFixed(2)}" y="${height - 12}" text-anchor="middle" fill="#7a6a59" font-size="11">${hour.toString().padStart(2, "0")}</text>`;
-  }).join("");
-
-  combinedChart.innerHTML = `
-    <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
-    ${gridLines}
-    <polyline class="line-series" points="${toPolyline(trendsPoints)}" stroke="#cf5e3c"></polyline>
-    <polyline class="line-series" points="${toPolyline(newsPoints)}" stroke="#95622a"></polyline>
-    ${pointNodes(trendsPoints, "trends", "#cf5e3c")}
-    ${pointNodes(newsPoints, "news", "#95622a")}
-    ${hourLabels}
-    <text x="${padding.left}" y="14" fill="#5e4f41" font-size="12" font-weight="600">Overlay perbandingan per jam (hari ini)</text>
-  `;
-}
-
-function hideTooltip() {
-  if (!chartTooltip) {
-    return;
-  }
-
-  chartTooltip.hidden = true;
-}
-
-function showTooltip(event, rect) {
-  if (!chartTooltip || !rect) {
-    return;
-  }
-
-  const series = rect.dataset.series === "news" ? "Google News" : "Google Trends";
-  const hour = String(rect.dataset.hour || "0").padStart(2, "0");
-  const count = rect.dataset.count || "0";
-
-  chartTooltip.textContent = `${series} | ${hour}:00 = ${count} item`;
-  chartTooltip.hidden = false;
-
-  const margin = 10;
-  const rectBox = chartTooltip.getBoundingClientRect();
-  const desiredX = event.clientX + 12;
-  const desiredY = event.clientY + 12;
-
-  const maxX = window.innerWidth - rectBox.width - margin;
-  const maxY = window.innerHeight - rectBox.height - margin;
-
-  const left = Math.max(margin, Math.min(desiredX, maxX));
-  const top = Math.max(margin, Math.min(desiredY, maxY));
-
-  chartTooltip.style.left = `${left}px`;
-  chartTooltip.style.top = `${top}px`;
-}
-
-function setupChartTooltip(svg) {
-  if (!svg) {
-    return;
-  }
-
-  svg.addEventListener("pointermove", (event) => {
-    const target = event.target;
-    if (!(target instanceof SVGElement) || !target.classList.contains("tooltip-node")) {
-      hideTooltip();
-      return;
-    }
-
-    showTooltip(event, target);
-  });
-
-  svg.addEventListener("pointerleave", hideTooltip);
-}
-
-function renderFavoriteKeywords() {
-  if (!favoriteKeywords) {
-    return;
-  }
-
-  favoriteKeywords.innerHTML = "";
-
-  if (!state.favoriteKeywords.length) {
-    const empty = document.createElement("span");
-    empty.className = "favorite-empty";
-    empty.textContent = "Belum ada preset favorit.";
-    favoriteKeywords.appendChild(empty);
-    return;
-  }
-
-  state.favoriteKeywords.forEach((keyword) => {
-    const chip = document.createElement("div");
-    chip.className = "favorite-chip";
-
-    const applyBtn = document.createElement("button");
-    applyBtn.type = "button";
-    applyBtn.className = "mini-button";
-    applyBtn.dataset.action = "apply";
-    applyBtn.dataset.keyword = keyword;
-    applyBtn.textContent = keyword;
-
-    const removeBtn = document.createElement("button");
-    removeBtn.type = "button";
-    removeBtn.dataset.action = "remove";
-    removeBtn.dataset.keyword = keyword;
-    removeBtn.setAttribute("aria-label", `Hapus preset ${keyword}`);
-    removeBtn.textContent = "x";
-
-    chip.appendChild(applyBtn);
-    chip.appendChild(removeBtn);
-    favoriteKeywords.appendChild(chip);
-  });
-}
-
-function addFavoriteKeyword(keyword) {
-  const normalized = String(keyword || "").trim().toLowerCase();
-  if (!normalized) {
-    return;
-  }
-
-  if (state.favoriteKeywords.includes(normalized)) {
-    return;
-  }
-
-  state.favoriteKeywords.unshift(normalized);
-  state.favoriteKeywords = state.favoriteKeywords.slice(0, 8);
-  saveFilterState();
-  renderFavoriteKeywords();
-}
-
-function removeFavoriteKeyword(keyword) {
-  state.favoriteKeywords = state.favoriteKeywords.filter((entry) => entry !== keyword);
-  saveFilterState();
-  renderFavoriteKeywords();
-}
-
-function setOverlayState(enabled) {
-  state.overlayEnabled = Boolean(enabled);
-  if (combinedChartCard) {
-    combinedChartCard.hidden = !state.overlayEnabled;
-  }
-  if (overlayToggle) {
-    overlayToggle.setAttribute("aria-pressed", String(state.overlayEnabled));
-    overlayToggle.textContent = state.overlayEnabled ? "Matikan Overlay" : "Aktifkan Overlay";
-  }
-}
-
 function renderFromState() {
-  const filteredTrends = applyFilters(state.trendsItems);
-  const filteredNews = applyFilters(state.newsItems);
-
-  renderTrends(filteredTrends);
-  renderNews(filteredNews);
-  updateRawExportOutput(filteredTrends, filteredNews);
-  renderHourlyChart(dailyChart, filteredTrends, {
-    color: "#cf5e3c",
-    series: "trends",
-    titlePrefix: "Topik Trends hari ini"
-  });
-  renderHourlyChart(newsChart, filteredNews, {
-    color: "#95622a",
-    series: "news",
-    titlePrefix: "Topik News hari ini"
-  });
-  renderCombinedOverlayChart(filteredTrends, filteredNews);
-  setOverlayState(state.overlayEnabled);
+  renderTrends(state.trendsItems);
+  renderNews(state.newsItems);
+  updateRawExportOutput(state.trendsItems, state.newsItems);
 }
 
-function activateChip(chip) {
-  chipButtons.forEach((button) => button.classList.remove("active"));
-  chip.classList.add("active");
-}
-
-function setupFilterEvents() {
-  chipButtons.forEach((chip) => {
-    chip.addEventListener("click", () => {
-      state.activePreset = chip.dataset.filter || "all";
-      state.customKeyword = "";
-      customFilterInput.value = "";
-      activateChip(chip);
-      saveFilterState();
-      renderFromState();
-    });
-  });
-
-  customFilterInput.addEventListener("input", () => {
-    state.customKeyword = customFilterInput.value.trim().toLowerCase();
-    state.activePreset = "all";
-    const allChip = chipButtons.find((button) => button.dataset.filter === "all");
-    if (allChip) {
-      activateChip(allChip);
-    }
-    saveFilterState();
-    renderFromState();
-  });
-
-  if (savePresetButton) {
-    savePresetButton.addEventListener("click", () => {
-      addFavoriteKeyword(customFilterInput.value);
-    });
-  }
-
-  if (favoriteKeywords) {
-    favoriteKeywords.addEventListener("click", (event) => {
-      const target = event.target;
-      if (!(target instanceof HTMLButtonElement)) {
-        return;
-      }
-
-      const action = target.dataset.action;
-      const keyword = String(target.dataset.keyword || "").trim().toLowerCase();
-      if (!keyword) {
-        return;
-      }
-
-      if (action === "remove") {
-        removeFavoriteKeyword(keyword);
-        return;
-      }
-
-      if (action === "apply") {
-        state.customKeyword = keyword;
-        state.activePreset = "all";
-        customFilterInput.value = keyword;
-        const allChip = chipButtons.find((button) => button.dataset.filter === "all");
-        if (allChip) {
-          activateChip(allChip);
-        }
-        saveFilterState();
-        renderFromState();
-      }
-    });
-  }
-
-  if (overlayToggle) {
-    overlayToggle.addEventListener("click", () => {
-      setOverlayState(!state.overlayEnabled);
-      saveFilterState();
-    });
-  }
-
+function setupEvents() {
   if (copyAllButton) {
     copyAllButton.addEventListener("click", () => {
       copyToClipboard(rawExportOutput.value || "", "Semua format");
@@ -1197,29 +766,18 @@ function setupFilterEvents() {
 
   if (copyTrendsButton) {
     copyTrendsButton.addEventListener("click", () => {
-      copyToClipboard(buildTrendsText(applyFilters(state.trendsItems)), "Google Trending");
+      copyToClipboard(buildTrendsText(state.trendsItems), "Google Trending");
     });
   }
 
   if (copyNewsButton) {
     copyNewsButton.addEventListener("click", () => {
-      copyToClipboard(buildNewsText(applyFilters(state.newsItems)), "Google News");
+      copyToClipboard(buildNewsText(state.newsItems), "Google News");
     });
   }
 }
 
-function applyFilterStateToUI() {
-  customFilterInput.value = state.customKeyword;
-  const activeChip = chipButtons.find((button) => button.dataset.filter === state.activePreset);
-  if (activeChip) {
-    activateChip(activeChip);
-  }
-  setOverlayState(state.overlayEnabled);
-  renderFavoriteKeywords();
-}
-
 async function fetchJson(path) {
-  // Add a cache-busting query to avoid stale CDN/browser JSON responses.
   const url = `${path}${path.includes("?") ? "&" : "?"}_ts=${Date.now()}`;
   const response = await fetch(url, { cache: "no-store" });
 
@@ -1270,9 +828,7 @@ async function requestRefreshFromServer() {
 
   const response = await fetch(API_ENDPOINTS.refresh, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ token })
   });
 
@@ -1285,12 +841,46 @@ async function requestRefreshFromServer() {
   }
 }
 
+async function waitForRefreshComplete() {
+  const startTime = Date.now();
+  const TIMEOUT_MS = 210000;
+  const POLL_MS = 2500;
+
+  return new Promise((resolve, reject) => {
+    const timer = setInterval(async () => {
+      const elapsed = Math.round((Date.now() - startTime) / 1000);
+      const stepLabel = getRefreshStepLabel(elapsed);
+
+      refreshButton.textContent = `${stepLabel} (${elapsed}s)`;
+      lastUpdatedEl.textContent = `Refresh berjalan — ${stepLabel} (${elapsed}s)`;
+
+      if (elapsed * 1000 >= TIMEOUT_MS) {
+        clearInterval(timer);
+        reject(new Error("Refresh timeout (>3 menit)"));
+        return;
+      }
+
+      try {
+        const payload = await fetchJson(API_ENDPOINTS.data);
+        if (!payload.fetchInProgress) {
+          clearInterval(timer);
+          resolve();
+        }
+      } catch {
+        // Abaikan error poll sementara.
+      }
+    }, POLL_MS);
+  });
+}
+
 refreshButton.addEventListener("click", async () => {
   refreshButton.disabled = true;
-  refreshButton.textContent = "Refreshing...";
+  refreshButton.textContent = "Memulai...";
+  lastUpdatedEl.textContent = "Memulai proses refresh...";
 
   try {
     await requestRefreshFromServer();
+    await waitForRefreshComplete();
     await loadData();
   } catch (error) {
     lastUpdatedEl.textContent = `Error: ${error.message}`;
@@ -1298,10 +888,6 @@ refreshButton.addEventListener("click", async () => {
     refreshButton.textContent = "Refresh";
   }
 });
-loadFilterState();
-applyFilterStateToUI();
-setupFilterEvents();
-setupChartTooltip(dailyChart);
-setupChartTooltip(newsChart);
-setupChartTooltip(combinedChart);
+
+setupEvents();
 loadData();

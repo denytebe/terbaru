@@ -64,7 +64,13 @@ async function scrapeTable(page) {
 export async function scrapeTrendingFromBrowser(limit = 15) {
   const browser = await puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--no-zygote"
+    ]
   });
 
   try {

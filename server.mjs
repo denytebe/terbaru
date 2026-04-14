@@ -102,24 +102,16 @@ app.post("/api/refresh", async (req, res) => {
   fetchInProgress = true;
   lastFetchAt = now;
 
-  try {
-    await runFetcher();
-    const [trends, news] = await Promise.all([
-      readJson(DATA_TRENDS),
-      readJson(DATA_NEWS)
-    ]);
+  // Fire and forget — client polls /api/data untuk cek selesai
+  runFetcher()
+    .catch((error) => {
+      console.error(`Fetcher error: ${error.message}`);
+    })
+    .finally(() => {
+      fetchInProgress = false;
+    });
 
-    return res.json(withTimestamp({
-      ok: true,
-      message: "Data berhasil diperbarui",
-      trendsUpdatedAt: trends.lastUpdated || "",
-      newsUpdatedAt: news.lastUpdated || ""
-    }));
-  } catch (error) {
-    return res.status(500).json({ error: `Refresh gagal: ${error.message}` });
-  } finally {
-    fetchInProgress = false;
-  }
+  return res.json(withTimestamp({ ok: true, status: "running" }));
 });
 
 app.get("/api/health", (_req, res) => {
