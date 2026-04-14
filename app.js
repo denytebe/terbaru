@@ -809,9 +809,11 @@ async function loadData() {
     const latest = trends.lastUpdated || news.lastUpdated;
     lastUpdatedEl.textContent = `Update terakhir: ${normalizeTime(latest)}`;
   } catch (error) {
-    lastUpdatedEl.textContent = `Error: ${error.message}`;
+    const errMsg = error.message || "Unknown error";
+    lastUpdatedEl.textContent = `Gagal memuat data: ${errMsg}`;
     applyEmptyState(trendsFormat);
-    applyEmptyState(newsFormat);
+    state.newsErrorMessage = `Gagal menghubungi server — ${errMsg}`;
+    renderNews([]);
   } finally {
     refreshButton.disabled = false;
     refreshButton.textContent = "Refresh";
