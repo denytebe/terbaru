@@ -80,6 +80,7 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
 
   const rows = await page.evaluate((maxItems) => {
     const clean = (value) => String(value || "").replace(/\s+/g, " ").trim();
+
     const findRelativeTime = (node) => {
       const pattern =
         /(\d+\s*(menit|jam|hari|minggu|bulan|tahun)\s*lalu|\d+\s*(minute|hour|day|week|month|year)s?\s*ago|\d+\s*[mhdwy]\s*ago)/i;
@@ -97,6 +98,19 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
       return "";
     };
 
+    const parseMinutesAgo = (text) => {
+      const s = String(text || "").toLowerCase();
+      const m = s.match(/(\d+)\s*(menit|jam|hari|minggu|minute|hour|day|week)/);
+      if (!m) return 99999;
+      const n = Number(m[1]);
+      const u = m[2];
+      if (u.startsWith("menit") || u.startsWith("minute")) return n;
+      if (u.startsWith("jam") || u.startsWith("hour")) return n * 60;
+      if (u.startsWith("hari") || u.startsWith("day")) return n * 1440;
+      if (u.startsWith("minggu") || u.startsWith("week")) return n * 10080;
+      return 99999;
+    };
+
     const readLinks = Array.from(document.querySelectorAll("a[href^='./read/'], a[href*='/read/']"));
     const result = [];
     const seen = new Set();
@@ -104,7 +118,6 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
     for (const anchor of readLinks) {
       const title = clean(anchor.textContent || anchor.getAttribute("aria-label") || "");
       const href = clean(anchor.getAttribute("href"));
-      const pubDate = "";
       const pubDateText = findRelativeTime(anchor);
 
       if (!title || title.length < 12) {
@@ -117,14 +130,12 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
       }
 
       seen.add(key);
-      result.push({ title, href, pubDate, pubDateText });
-
-      if (result.length >= maxItems) {
-        break;
-      }
+      result.push({ title, href, pubDate: "", pubDateText, minutesAgo: parseMinutesAgo(pubDateText) });
     }
 
-    return result;
+    // Urutkan dari yang paling baru, baru ambil N teratas
+    result.sort((a, b) => a.minutesAgo - b.minutesAgo);
+    return result.slice(0, maxItems);
   }, maxPerCategory);
 
   return rows.map((item) => ({
