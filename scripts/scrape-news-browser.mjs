@@ -81,88 +81,52 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
   const rows = await page.evaluate((maxItems) => {
     const clean = (value) => String(value || "").replace(/\s+/g, " ").trim();
 
-    const TIME_PATTERN =
-      /(\d+)\s*(menit|jam|hari|minggu|bulan|tahun|minute|hour|day|week|month|year)/i;
+    // Parse aria-label: "Judul - Sumber - X jam lalu" atau "Judul - Sumber - X jam lalu - Oleh Author"
+    const parseAriaLabel = (ariaLabel) => {
+      const parts = String(ariaLabel || "").split(" - ").map((p) => p.trim()).filter(Boolean);
+      if (parts.length < 2) return null;
 
-    const findRelativeTime = (node) => {
-      // Cari teks waktu relatif dari dalam container cluster ke atas
-      const candidates = node.querySelectorAll("time, [class*='time'], [class*='date'], span, div");
-      for (const el of candidates) {
-        const text = clean(el.textContent || "");
-        const match = text.match(TIME_PATTERN);
-        if (match && text.length < 40) {
-          return clean(text);
-        }
-      }
-      // Fallback: cari di parentElement
-      let current = node;
-      for (let depth = 0; depth < 5 && current; depth += 1) {
-        const text = clean(current.textContent || "");
-        const match = text.match(TIME_PATTERN);
-        if (match) {
-          // Ambil match paling pendek (bukan seluruh paragraf)
-          const snippet = text.match(/\d+\s*(menit|jam|hari|minggu|minute|hour|day|week)[^.]{0,15}/i);
-          if (snippet) return clean(snippet[0]);
-        }
-        current = current.parentElement;
-      }
-      return "";
-    };
+      const title = parts[0];
+      // Waktu selalu di parts[1+], dimulai langsung dengan angka (bukan bagian dari judul)
+      const timePattern = /^\d+\s*(menit|jam|hari|minggu|bulan|tahun|minute|hour|day|week)/i;
+      const pubDateText = parts.slice(1).find((p) => timePattern.test(p)) || "";
 
-    const parseMinutesAgo = (text) => {
-      const m = String(text || "").toLowerCase().match(/(\d+)\s*(menit|jam|hari|minggu|minute|hour|day|week)/);
-      if (!m) return 99999;
-      const n = Number(m[1]);
-      const u = m[2];
-      if (u.startsWith("menit") || u.startsWith("minute")) return n;
-      if (u.startsWith("jam") || u.startsWith("hour")) return n * 60;
-      if (u.startsWith("hari") || u.startsWith("day")) return n * 1440;
-      if (u.startsWith("minggu") || u.startsWith("week")) return n * 10080;
-      return 99999;
+      return title.length >= 12 ? { title, pubDateText } : null;
     };
 
     const result = [];
-    const seen = new Set();
+    const seenTitles = new Set();
 
-    // Tiap <article> di Google News = satu topic cluster
-    const clusters = Array.from(document.querySelectorAll("article"));
+    // Tiap .PO9Zff.Ccj79.kUVvS = satu topic cluster
+    const clusters = Array.from(document.querySelectorAll(".PO9Zff.Ccj79.kUVvS"));
 
     for (const cluster of clusters) {
-      // Ambil link utama (headline pertama) dari cluster ini
-      const anchor = cluster.querySelector("a[href^='./read/'], a[href*='/read/']");
-      if (!anchor) continue;
+      if (result.length >= maxItems) break;
 
-      const title = clean(anchor.textContent || anchor.getAttribute("aria-label") || "");
-      const href = clean(anchor.getAttribute("href"));
+      // Cari a[href*='/read/'] pertama yang punya aria-label berisi judul
+      const allReadLinks = Array.from(cluster.querySelectorAll("a[href*='/read/']"));
+      let matched = null;
 
-      if (!title || title.length < 12) continue;
-
-      const key = `${title}|${href}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-
-      const pubDateText = findRelativeTime(cluster);
-      result.push({ title, href, pubDate: "", pubDateText, minutesAgo: parseMinutesAgo(pubDateText) });
-    }
-
-    // Fallback: kalau tidak ada <article>, pakai pendekatan link langsung
-    if (!result.length) {
-      const readLinks = Array.from(document.querySelectorAll("a[href^='./read/'], a[href*='/read/']"));
-      for (const anchor of readLinks) {
-        const title = clean(anchor.textContent || anchor.getAttribute("aria-label") || "");
-        const href = clean(anchor.getAttribute("href"));
-        if (!title || title.length < 12) continue;
-        const key = `${title}|${href}`;
-        if (seen.has(key)) continue;
-        seen.add(key);
-        const pubDateText = findRelativeTime(anchor);
-        result.push({ title, href, pubDate: "", pubDateText, minutesAgo: parseMinutesAgo(pubDateText) });
+      for (const a of allReadLinks) {
+        const parsed = parseAriaLabel(a.getAttribute("aria-label"));
+        if (parsed && !seenTitles.has(parsed.title)) {
+          matched = { anchor: a, ...parsed };
+          break;
+        }
       }
+
+      if (!matched) continue;
+
+      seenTitles.add(matched.title);
+      result.push({
+        title: matched.title,
+        href: clean(matched.anchor.getAttribute("href") || ""),
+        pubDate: "",
+        pubDateText: matched.pubDateText
+      });
     }
 
-    // Urutkan dari yang paling baru, ambil N teratas
-    result.sort((a, b) => a.minutesAgo - b.minutesAgo);
-    return result.slice(0, maxItems);
+    return result;
   }, maxPerCategory);
 
   return rows.map((item) => ({
