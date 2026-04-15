@@ -52,12 +52,17 @@ function normalizeUrl(value) {
 }
 
 async function dismissCookieBanner(page) {
-  const labels = ["Got it", "I agree", "Setuju", "Saya setuju"];
+  const labels = [
+    "Got it", "I agree", "Setuju", "Saya setuju",
+    "Accept all", "Terima semua", "Agree", "Continue", "Lanjutkan",
+    "OK", "Accept"
+  ];
 
   const clicked = await page.evaluate((buttonLabels) => {
-    const buttons = Array.from(document.querySelectorAll("button"));
+    const buttons = Array.from(document.querySelectorAll("button, [role='button']"));
+    const labelsLower = buttonLabels.map((l) => l.toLowerCase());
     const target = buttons.find((button) =>
-      buttonLabels.includes((button.textContent || "").trim())
+      labelsLower.includes((button.textContent || "").trim().toLowerCase())
     );
 
     if (!target) {
@@ -69,12 +74,12 @@ async function dismissCookieBanner(page) {
   }, labels);
 
   if (clicked) {
-    await delay(700);
+    await delay(800);
   }
 }
 
 async function scrapeTopicPage(page, category, url, maxPerCategory) {
-  await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
   // Deteksi blokir / CAPTCHA dari Google
   const pageTitle = await page.title();
@@ -83,9 +88,15 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
   }
 
   await dismissCookieBanner(page);
+
+  // Tunggu konten JS-rendered muncul — lebih andal dari networkidle2 di server Linux
+  await Promise.race([
+    page.waitForSelector(".PO9Zff", { timeout: 20000 }).catch(() => null),
+    page.waitForSelector('a[href*="/read/"]', { timeout: 20000 }).catch(() => null)
+  ]);
   await delay(1200);
 
-  const rows = await page.evaluate((maxItems) => {
+  const scraped = await page.evaluate((maxItems) => {
     const clean = (value) => String(value || "").replace(/\s+/g, " ").trim();
 
     // Parse aria-label: "Judul - Sumber - X jam lalu" atau "Judul - Sumber - X jam lalu - Oleh Author"
@@ -104,8 +115,19 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
     const result = [];
     const seenTitles = new Set();
 
-    // Tiap .PO9Zff.Ccj79.kUVvS = satu topic cluster
-    const clusters = Array.from(document.querySelectorAll(".PO9Zff.Ccj79.kUVvS"));
+    // Tiap .PO9Zff.Ccj79.kUVvS = satu topic cluster (spesifik)
+    let clusters = Array.from(document.querySelectorAll(".PO9Zff.Ccj79.kUVvS"));
+    const specificCount = clusters.length;
+
+    // Fallback: pakai selector lebih longgar jika selector spesifik gagal
+    if (clusters.length === 0) {
+      clusters = Array.from(document.querySelectorAll(".PO9Zff"));
+    }
+    const broadCount = clusters.length;
+
+    // Hitung total a[href*='/read/'] di halaman untuk diagnostik
+    const totalReadLinks = document.querySelectorAll("a[href*='/read/']").length;
+    let ariaLabelHits = 0;
 
     for (const cluster of clusters) {
       if (result.length >= maxItems) break;
@@ -115,7 +137,9 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
       let matched = null;
 
       for (const a of allReadLinks) {
-        const parsed = parseAriaLabel(a.getAttribute("aria-label"));
+        const label = a.getAttribute("aria-label") || "";
+        if (label) ariaLabelHits++;
+        const parsed = parseAriaLabel(label);
         if (parsed && !seenTitles.has(parsed.title)) {
           matched = { anchor: a, ...parsed };
           break;
@@ -133,16 +157,30 @@ async function scrapeTopicPage(page, category, url, maxPerCategory) {
       });
     }
 
-    return result;
+    return {
+      items: result,
+      _debug: { specificCount, broadCount, totalReadLinks, ariaLabelHits }
+    };
   }, maxPerCategory);
 
-  return rows.map((item) => ({
-    title: item.title,
-    link: normalizeUrl(item.href),
-    pubDate: item.pubDate,
-    pubDateText: item.pubDateText,
-    category
-  }));
+  const { items, _debug } = scraped;
+
+  if (items.length === 0) {
+    console.warn(
+      `[scraper] "${category}" — 0 artikel. clusters_spesifik=${_debug.specificCount}, clusters_fallback=${_debug.broadCount}, read_links=${_debug.totalReadLinks}, aria_hits=${_debug.ariaLabelHits}`
+    );
+  }
+
+  return {
+    items: items.map((item) => ({
+      title: item.title,
+      link: normalizeUrl(item.href),
+      pubDate: item.pubDate,
+      pubDateText: item.pubDateText,
+      category
+    })),
+    debug: { category, ..._debug }
+  };
 }
 
 export async function scrapeNewsByTopics(options = {}) {
@@ -166,13 +204,16 @@ export async function scrapeNewsByTopics(options = {}) {
 
     const categories = Object.keys(TOPIC_URLS);
     const allItems = [];
+    const debugInfo = [];
 
-    const headlineItems = await scrapeTopicPage(page, "headline", HOME_URL, headlineLimit);
-    allItems.push(...headlineItems);
+    const headlineResult = await scrapeTopicPage(page, "headline", HOME_URL, headlineLimit);
+    allItems.push(...headlineResult.items);
+    debugInfo.push(headlineResult.debug);
 
     for (const category of categories) {
-      const scraped = await scrapeTopicPage(page, category, TOPIC_URLS[category], maxPerCategory);
-      allItems.push(...scraped);
+      const result = await scrapeTopicPage(page, category, TOPIC_URLS[category], maxPerCategory);
+      allItems.push(...result.items);
+      debugInfo.push(result.debug);
     }
 
     const unique = [];
@@ -189,7 +230,14 @@ export async function scrapeNewsByTopics(options = {}) {
 
     // Deteksi kalau semua kategori tidak menghasilkan apapun
     if (unique.length === 0) {
-      throw new Error("EMPTY: Semua kategori menghasilkan 0 artikel. Kemungkinan struktur halaman Google News berubah atau selector CSS tidak cocok lagi.");
+      const debugSamples = debugInfo
+        .slice(0, 4)
+        .map((d) => `${d.category}(c=${d.specificCount}/${d.broadCount} lnk=${d.totalReadLinks} aria=${d.ariaLabelHits})`)
+        .join(", ");
+
+      throw new Error(
+        `EMPTY: Semua kategori menghasilkan 0 artikel. Kemungkinan struktur halaman Google News berubah atau selector CSS tidak cocok lagi. [${debugSamples}]`
+      );
     }
 
     return unique;
