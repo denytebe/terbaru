@@ -1,27 +1,35 @@
 {
   "source": "google-trends-id",
-  "lastUpdated": "2026-06-13T00:02:17.497Z",
+  "lastUpdated": "2026-06-13T01:30:29.887Z",
   "items": [
     {
-      "title": "kanada vs bosnia",
+      "title": "amerika serikat vs paraguay",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "10K+",
-      "started": "7 hours ago",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "20K+",
+      "started": "6 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "hwang in-beom",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "50K+",
-      "started": "22 hours ago",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "20K+",
+      "started": "23 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "canada",
+      "title": "kanada vs bosnia",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "20K+",
+      "started": "8 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "usa vs paraguay",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-06-13T01:30:29.887Z",
       "approxTraffic": "10K+",
       "started": "5 hours ago",
       "source": "browser-scrape"
@@ -29,97 +37,89 @@
     {
       "title": "presiden",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "5K+",
-      "started": "17 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "peringkat",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
+      "pubDate": "2026-06-13T01:30:29.887Z",
       "approxTraffic": "10K+",
-      "started": "15 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "ragnar oratmangoen",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "5K+",
-      "started": "11 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "jennifer coppen",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "5K+",
-      "started": "16 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "makan bergizi gratis",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "5K+",
       "started": "19 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "amerika serikat vs paraguay",
+      "title": "canada",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "2K+",
-      "started": "5 hours ago",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "20K+",
+      "started": "7 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "jadwal piala dunia hari ini",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
+      "pubDate": "2026-06-13T01:30:29.887Z",
       "approxTraffic": "5K+",
-      "started": "12 hours ago",
+      "started": "14 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "edin džeko",
+      "title": "peringkat",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "2K+",
-      "started": "5 hours ago",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "10K+",
+      "started": "16 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "usa vs paraguay",
+      "title": "ragnar oratmangoen",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "5K+",
+      "started": "13 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "jennifer coppen",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "5K+",
+      "started": "17 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "makan bergizi gratis",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "5K+",
+      "started": "20 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "folarin balogun",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "1K+",
+      "started": "1 hour ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "brazil vs morocco",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-06-13T01:30:29.887Z",
       "approxTraffic": "1K+",
       "started": "4 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "spcx",
+      "title": "sergiño dest",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "2K+",
-      "started": "10 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "kepala sekolah",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
+      "pubDate": "2026-06-13T01:30:29.887Z",
       "approxTraffic": "1K+",
-      "started": "3 hours ago",
+      "started": "1 hour ago",
       "source": "browser-scrape"
     },
     {
       "title": "brasil vs maroko",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-06-13T00:02:17.497Z",
-      "approxTraffic": "500+",
-      "started": "2 hours ago",
+      "pubDate": "2026-06-13T01:30:29.887Z",
+      "approxTraffic": "2K+",
+      "started": "4 hours ago",
       "source": "browser-scrape"
     }
   ]
