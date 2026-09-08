@@ -1,27 +1,27 @@
 {
   "source": "google-trends-id",
-  "lastUpdated": "2026-09-08T21:12:38.518Z",
+  "lastUpdated": "2026-09-08T21:37:33.518Z",
   "items": [
+    {
+      "title": "ucl",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-08T21:37:33.518Z",
+      "approxTraffic": "100K+",
+      "started": "5 hours ago",
+      "source": "browser-scrape"
+    },
     {
       "title": "porto vs man city",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "20K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "ucl",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
-      "approxTraffic": "50K+",
-      "started": "5 hours ago",
-      "source": "browser-scrape"
-    },
-    {
       "title": "losc vs betis",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "20K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
@@ -29,23 +29,31 @@
     {
       "title": "club brugge vs aston villa",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "50K+",
       "started": "10 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "liga champions",
+      "title": "champions league",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "20K+",
-      "started": "22 hours ago",
+      "started": "5 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "dortmund vs villarreal",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-08T21:37:33.518Z",
+      "approxTraffic": "5K+",
+      "started": "4 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "real madrid",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "20K+",
       "started": "1 hour ago",
       "source": "browser-scrape"
@@ -53,63 +61,47 @@
     {
       "title": "millwall vs newcastle",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "5K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "champions league",
+      "title": "klasemen fc porto vs man city",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
-      "approxTraffic": "10K+",
-      "started": "4 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "dortmund vs villarreal",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "5K+",
-      "started": "4 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "uefa champions league",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
-      "approxTraffic": "5K+",
-      "started": "5 hours ago",
+      "started": "20 minutes ago",
       "source": "browser-scrape"
     },
     {
       "title": "sunderland vs hull city",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "5K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "klasemen club brugge vs aston villa",
+      "title": "hasil liga champions",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "5K+",
-      "started": "2 hours ago",
+      "started": "4 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "crystal palace vs middlesbrough",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
-      "approxTraffic": "2K+",
+      "pubDate": "2026-09-08T21:37:33.518Z",
+      "approxTraffic": "5K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "bournemouth vs lincoln city",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "2K+",
       "started": "3 hours ago",
       "source": "browser-scrape"
@@ -117,9 +109,17 @@
     {
       "title": "klasemen elche vs real sociedad",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-08T21:12:38.518Z",
+      "pubDate": "2026-09-08T21:37:33.518Z",
       "approxTraffic": "10K+",
       "started": "23 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "ledakan",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-08T21:37:33.518Z",
+      "approxTraffic": "10K+",
+      "started": "17 hours ago",
       "source": "browser-scrape"
     }
   ]
