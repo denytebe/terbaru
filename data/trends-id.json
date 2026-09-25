@@ -1,19 +1,19 @@
 {
   "source": "google-trends-id",
-  "lastUpdated": "2026-09-25T13:39:18.422Z",
+  "lastUpdated": "2026-09-25T14:18:10.832Z",
   "items": [
     {
-      "title": "australia vs brasil",
+      "title": "indonesia",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "100K+",
-      "started": "4 hours ago",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "200K+",
+      "started": "5 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "timnas",
+      "title": "australia vs brasil",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
+      "pubDate": "2026-09-25T14:18:10.832Z",
       "approxTraffic": "100K+",
       "started": "5 hours ago",
       "source": "browser-scrape"
@@ -21,23 +21,15 @@
     {
       "title": "klasemen portugal vs tim nasional sepak bola wales",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
+      "pubDate": "2026-09-25T14:18:10.832Z",
       "approxTraffic": "200K+",
-      "started": "16 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "indonesia",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "10K+",
-      "started": "4 hours ago",
+      "started": "17 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "australia vs brazil",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
+      "pubDate": "2026-09-25T14:18:10.832Z",
       "approxTraffic": "20K+",
       "started": "4 hours ago",
       "source": "browser-scrape"
@@ -45,81 +37,89 @@
     {
       "title": "malaysia vs bangladesh",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
+      "pubDate": "2026-09-25T14:18:10.832Z",
       "approxTraffic": "10K+",
-      "started": "4 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "belanda vs jerman",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "100K+",
-      "started": "20 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "harga bbm pertamina",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "5K+",
       "started": "5 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "guruh soekarnoputra",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "2K+",
-      "started": "3 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "video",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "2K+",
-      "started": "20 minutes ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "brazil",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "2K+",
-      "started": "2 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "mozambik vs senegal",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "200+",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "2K+",
+      "started": "1 hour ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "belanda vs jerman",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "100K+",
+      "started": "21 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "guruh soekarnoputra",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "2K+",
+      "started": "4 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "dana",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "1K+",
       "started": "20 minutes ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "indonesia fc",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "500+",
+      "started": "40 minutes ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "harga bbm pertamina",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "5K+",
+      "started": "6 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "brazil",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "2K+",
+      "started": "3 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "portugal",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
+      "pubDate": "2026-09-25T14:18:10.832Z",
       "approxTraffic": "20K+",
       "started": "20 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "norwegia vs denmark",
+      "title": "video",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "20K+",
-      "started": "19 hours ago",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "2K+",
+      "started": "1 hour ago",
       "source": "browser-scrape"
     },
     {
-      "title": "susunan pemain tim nasional sepak bola australia vs timnas brasil",
+      "title": "norwegia vs denmark",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-09-25T13:39:18.422Z",
-      "approxTraffic": "1K+",
-      "started": "2 hours ago",
+      "pubDate": "2026-09-25T14:18:10.832Z",
+      "approxTraffic": "20K+",
+      "started": "20 hours ago",
       "source": "browser-scrape"
     }
   ]
