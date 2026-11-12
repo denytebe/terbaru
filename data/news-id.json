@@ -1,37 +1,45 @@
 {
   "source": "google-news-id-browser",
-  "lastUpdated": "2026-11-12T01:38:15.641Z",
+  "lastUpdated": "2026-11-12T02:13:46.084Z",
   "scrapeOk": true,
   "errorMessage": "",
   "items": [
     {
       "title": "Fraksi PAN Dengar Kabar Gibran Serahkan Surat Pengunduran Diri ke MPR Besok",
       "link": "https://news.google.com/read/CBMitgFBVV95cUxQOThiaGdkMEdTRnFHVmFGVUtkYlZMTmVZc0VKMy1XOWhSdHFvWHNZdGFOdmgwd0hsdG9mVW0yUzZOZnVoTjBIRm5fTzBBaXBEbGl3WmhpcjlhQlR6ZDVDenBteGNRblNKbm5hcXQxbzBSNDlVSVZVVDdNT1lsaDZpdTlTa3FyRzBiaFBVcjM0VGtydXJnTGxvNWQwVDNya05VYUhkRURYVXpIcHYtbUtDWXd5WTR0QdIBuwFBVV95cUxPYkxCcVNCSENCcGtndExWNUo5cEJlM2d3UC1ZTmZFSHdtNWRkLUY3SF9LM2pHa0t3UzRVV3RhS2ZBR0tTQ1dqWDRVSXhrZm5KUFdHOWs0LWNlMW9lNUtYY0F0ZGJKQVJCU3NUN2hWNFpsNTRTWkFfNnM5RFdtUF9rbExNbHdBNDVHRjYyc1ZBcllJZFVBSVBWc2h2SE1EaVRSTXJkdTZLTjljYzJWV3E0NkdoZGplVVZYa00w?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T16:38:15.641Z",
-      "pubDateText": "9 jam lalu",
+      "pubDate": "2026-11-11T16:13:46.084Z",
+      "pubDateText": "10 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
-      "title": "Prabowo Protes ke Pramono Banyak Iklan di Bundaran HI, Ternyata Dipasang Kader Gerindra",
-      "link": "https://news.google.com/read/CBMiwgFBVV95cUxQNWtFd25rYms1WVB5all1akRvOGNjUkprYWpRQlR3QVh3dUo3TWppWTRWSGRtWFFvYzZFUkNNcmphRmFfeGZFQTRtR1NDZjkyVjVYc1VBaWYzYkpIU09iaEFhejFPQTU3ZVhnUVlKZGhHZE5FTnlSc2JCYnRTNG9UYXhPR3FaakN6T1ZxRldmUFFvT2dzMkpEWUVWTkliSWprMTVCYXc1eG5RRFhlb3Zfa2RueEM2a0dUVmxoVDR2UlRLZw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T15:38:15.641Z",
-      "pubDateText": "10 jam lalu",
+      "title": "Putusan MA Soal Ijazah Gibran, Siapa Berhak Ajukan PK?",
+      "link": "https://news.google.com/read/CBMiqwFBVV95cUxPV2ptSmxLUWhrX1Jza0xUZ3RQbE80ejJycjlId2lvWnRFOXRDRzY3NThmbzZrSkhWQy1XakJFa1NYdmFoLTYyTHNGSjJGZDZXOVNUMTQwSTU1NE8xRllNOVlpY0plUUZaSjJNbEREUFNqdXJGd1ByalhoMUh4ZmtuTE93RnJVZk01QWZmWFU4Y1dqN1dEdHZnblY0dEhSUnBaeWozNUpqN2RyLWM?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T09:13:46.084Z",
+      "pubDateText": "17 jam lalu",
+      "category": "indonesia",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Prabowo: Terima Kasih PDI-P, Walaupun Kalian Bukan Koalisi",
+      "link": "https://news.google.com/read/CBMirgFBVV95cUxNMjdVdE94Q2NsbVRMZVg0bXBuclEzaFp2Ynk2LUd6RlYxelBCWW1KMzFBZWJWel85MmpVOHp0UUhJQjUtc2lkdE0tRzIzSVNwTlg5U04zRzFWVFF5UkJMdGJnUlZvOUtxN0dCYTIyNWItb0hZUFNnSGQtQnNJWmxYWXk4Q3hSdnVCY210YUZmODdQU0ZOTWtpUmFzSUZJRHVuMVluOE5EMnc5dUozMHc?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
       "title": "Yogyakarta: Unjuk rasa berujung ricuh di Yogyakarta – 104 orang ditangkap, UGM kecam kekerasan aparat",
       "link": "https://news.google.com/read/CBMiYkFVX3lxTFBTbjd6MGVzNHpBSmtpdkc4OTZBU3FGYi1RT19LMy1sWFBZNDRqX2VPaDBlbmRQSEFOXy1SaGpYTGxCbVl6VVQxcXppVnFvQWpKUVlDWkVjYlhaZlBvanNHTjZ30gFnQVVfeXFMT0lkekJ5WGpRMlJIQ3hRWWNRMTdZMG1JWUluTE1CS040QnFOWjI1X1plazRMV1QxY3VFeS1GcGR2VWFybDJsN0tHMWpFUFN5dHhGQ21yNkpZZ2ppTll6RFFNY21pRGxCQQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T12:38:15.641Z",
-      "pubDateText": "13 jam lalu",
+      "pubDate": "2026-11-11T12:13:46.084Z",
+      "pubDateText": "14 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
       "title": "Gibran Rakabuming Raka: 120 anggota DPR ajukan Hak Menyatakan Pendapat soal pemakzulan Gibran",
       "link": "https://news.google.com/read/CBMiYkFVX3lxTE5ocDljeWxKRGJNZk5Zd01IMHAzdlNPUGpydTNpNHN0NVZJdWotZGpHSTdvRXhfWGxuLW1qbEdNcTc1T2t4VFFWd2tnMEVkNG14TjhDYU9LZElsVlFFbFVjMGdB0gFnQVVfeXFMTTRwUDBPdlo4QUVydUJlQkpWRkFqbnNDRVFqdGxmOE4zdU52TmVubHctSUVWSm1ad1l2OHVvc25TelAzc3Z2Rlg4MlprNngxTXFSXzgwQ0VvUzlFX0k3TVE5NV9JdGFqdw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
+      "pubDate": "2026-11-11T12:13:46.084Z",
       "pubDateText": "14 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
@@ -39,87 +47,87 @@
     {
       "title": "Disambut Surya Paloh, Presiden Prabowo Hadiri HUT Ke-15 NasDem",
       "link": "https://news.google.com/read/CBMiowFBVV95cUxOU2NPSlhrUTVCVVVhNTFweVBtOG9YOEg2RnB5Yng3TmhIbFhVWHpUZFVpRjdrcGNIMzYxb3V2Qmd3MGE1TU5wUmFSZU45V3dmSHpyaDFGVmxpMF9UcUUzMGE5NVZSTEZCby1rZVFXRWluTkhLTktWRm0yN1BtTE9YRkNyeXR2b1pRRElpTGtvOVhtMTIzd25xWVgtWW1hSlVOeFJz0gGoAUFVX3lxTFBqQkw3eGxZVGo4cFNrYWVDU29qT1hxeFdDTGRLV1dpakpoZmptdURRZVhIbXJhRWtUMm1xQmNjQV90RENMYlk4OE44WTgzbWRHcGo4WHQ4STROM3hXMXppQWFvM3hyMWtRWExaWEF2VU1wMGxyMUt5Z05GWTBfZnFkNmM3eHhwMWgtM3UyeExXck8wRXpHM3U3WmktSElvT3ctWXRiNjZISw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T13:38:15.641Z",
-      "pubDateText": "12 jam lalu",
+      "pubDate": "2026-11-11T13:13:46.084Z",
+      "pubDateText": "13 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
       "title": "Kasus Penyadapan Prabowo: 8 Saksi Ajukan Perlindungan LPSK, 1 Orang Ajukan JC",
       "link": "https://news.google.com/read/CBMitgFBVV95cUxNV0FJQXBOelZhNHhXcS1TSmlUeXBPT1hiNVk1MFVBenFWcmcwVXJ5OS1MYmU2c01hVjQ3dUJtdmZORjFrY29kN0VfaTFheVFTNGNDX21ZcDZpNVkzNEp6ZnZSNGZ0ZWU5YzJqUUx6a3UzNDlCaEtxVkk5Ry12Z2hhUENQbDNnVm44Zi1iRTExTmFsME9CWDh5S2ZHa3U2d1gzWS1fMEt0ZURJck8wanR1RXpsaG1xUdIBuwFBVV95cUxOZGVqUnBYaThGbUEtRUduLTJ1Yko0YlNSZ1c1Rm83aDFjYW01WVU1dFVTVHhORVJJOXptY3ZUQTdER0hMa2x3WWhDdnVJUy1mNGxKRHJzaGZ1a2k3ODR6NE1SbnBnelJrUl9DZTZ0UzRpWVduMUdPc1d2RkdVT2JROGxvdWhoTUZNdXZ0WUItZUxnSE9BQXctcHo4VGcwREFXRWFoZnNWelltZmlRcVBRVTUySWFSYThLSzEw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T10:38:15.641Z",
+      "pubDate": "2026-11-11T11:13:46.084Z",
       "pubDateText": "15 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
-      "title": "Tokoh penerima gelar Pahlawan Nasional 2026 (2)",
-      "link": "https://news.google.com/read/CBMilgFBVV95cUxOWTlkLTBhdXpaLXJPUE9kdWZILUdJNkk1c3MweXJUbkhvUVN0RG16SkdxV1Q1M0JtUUVqYzRVS2hkaHFZa296UEtid1p1RktvZ01HVTl0WHZrOV9MT2ZQLWZrVWx0Xy1VOG9BQmlxNTg2V2VjSWhSQVdPUkdkVFhld3dSME0tcG51Nl9oellnWWREV191SHc?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "title": "10 Tahun Tugas, Ajudan Ungkap Tak Pernah Lihat Jokowi Berkumis",
+      "link": "https://news.google.com/read/CBMiwwFBVV95cUxQX1E3XzJGT0xhRzBUVjNSTVlmX2taU2FoZVZkQUhBOEtDT1o1WnVKejNXQjQ0NWNCbzljNUlWTkFuVnpLSHE1RmZOVEN6RWg3VWFONzVVQmhDYjEyazdMRXYyUXdjcGVqeTd3LXRMMlJRTEM0ZFIxMXhZSGNRbHJNZG11aUpQTFJnTWpuYnRXRG8zOEZ4WmdzUDBiQk9NQVRvWGZUZ2pXcnNIRGowSXpSdkFfVWFyTmh4U0RkNTc2OXVTczDSAcgBQVVfeXFMTTBZZWFQWjVyVVAxOVQxZFg5a0RJVG90X0hZUVRCZmxndkJodXc3U3l2elFJNmstY2RNNVNnTXQ1OEJaVEFYNEZmbkhIMTFRWmlla2R0MnR4NHhMWVp1U0h2akZFcFp4N0pDdDROTnNIWGdSeDA4UG91eWpQNWxLVkZKY0ljN2dkallIMUxwajVQR3Bva3pqRE5MOC1BV3AtQjZMWTYxRUduNU0wR1VmV0dtVTk1bVdHblBlQ0lLY09YV2pBM2xKcFY?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T08:13:46.084Z",
+      "pubDateText": "18 jam lalu",
+      "category": "indonesia",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Sah! Polri Pecat Irjen Ahrie Sonta Nasution, Terbukti Menyadap Prabowo",
+      "link": "https://news.google.com/read/CBMixgFBVV95cUxNUFIwZk9OaUNOcVphQ01lT1JNUTY2V21HS1lwNUE3WVVEZWZsSmNvSHdrMDd4SllQbHNEYkFOajlUbnZubWZGQVVRSlM1VVNCVk02bkZraFA1NmM5UDllZzZKN3BqcWdwZnVtWVoxNG8tN2N4ajNDUEZYVklXMW9RQWsxbUhoWEtWbEJKeGRJYlJPNDRSSGFWMzRjdnVFN1ROLS14X1ZnT183NElua0x2RXVFVWd2bXdMaHlqRzZadDE0NGtsTHfSAcsBQVVfeXFMUHpJc1FqRjNtNU5mU0hHUnR4dFR0dTZ6OVh3bVVSRjZYRDNwU29GbXVTb1RvbGpINzJkQ2UtTXVkM3NPRkV4NjVTdW1uYV9vODQxMmthazM5dmt0NjhLdkhObGpXaGNPZUFoY1ZlbWZ4eHgxeUdkVUpsdFo2SURmcWVfV0dkV2NSRzF6dHFVcVBiZzFsUTJTdTJ3OU5Tc0tKbEJwa1hZWUdKeF9BQkE0QXFSajEybU5rMEdISXRMZldlbUV1QmlGbWRtam8?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
-      "title": "Bupati Nagan Raya Dukung Prabowo 2 Periode",
-      "link": "https://news.google.com/read/CBMiigFBVV95cUxOcmJXb2o1RDcyckZoemRWeXZhM1JVeHh1bFRPeDNWMmdQR2lZSTRHbTAyV2NoSE1mQUNFallTWDVPT0hxVVRXSFJMSUVSSUNjTGtsR3o0MUlYUGNjWXNyS2V6bVJEMkpwVjNJU240ZnpCTDNVNHp2cE0xUEdQdGpoTGFGdXVwMVlsa3fSAY8BQVVfeXFMUDBRdzhjbU9vVl9sVW9nQlBBT0MtSVl4Y3VUeWk1dGpma01ndXlMQUxJTUJkdWVFRWFaX2xBalU2dTBLcmNiLWNrMWNDWHVSVEpQbnBNMEpsOHA1bzdqX3hXMEQxRjA0ZXZhejdpWS1Tcmh3LVR6enM5MzdzblJqcjF0TmVpOHRTaE5xQVNoblE?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T05:38:15.641Z",
-      "pubDateText": "20 jam lalu",
-      "category": "indonesia",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Polri Resmi Pecat Irjen Ahrie Sonta Buntut Kasus Penyadapan Prabowo",
-      "link": "https://news.google.com/read/CBMiywFBVV95cUxNeU5SY3ZJVmN1MVo3QjI1SlRldENiUTFGblQ5a3BxZDM0RzRLSGJiV1FNd1dZb0lRUkNOZkpNZFM2Y2N2OEU0aFBoTjlVNHp0RzVTLW80dkVNRXNPSHNUeXpoanBCZ1BYN0Z6M01fSzU4aTl3NDdlZllENVoyYkZ4UDhrNm9hM3FnRnNJWDdGaU5aN0s2UHJTaWZPSy0xR2ViUHlWRV9lbjJTWmpMV0hlWEd4LWp3RHJkN1Q1M2NWLXhVdWllMVp3eTFBZ9IB0AFBVV95cUxNQk90YndkMGRVelg5aGZ6a1RyZGlJamJuU1lGYXA2emNhMDhZOGt1cDNiTjVDZDhSU1Z6TnltbXRmNDVXb3E5NjRsRVdsNUN6aXY0STE4djF5d3Y3Ymc1X2RLWVMwM3NXVGRHdllvb2dEXzVUZF95N1BtV1dobGxtX2hNRjJnUWtaVXlfamlnOU1ULUJEQS1YYzZFMWY5OHdlM1Q4enhrdzdQMXRkMVZuN2VraHVMOVJ2MWtBdE1zQ0dZcmpKVGVLamgxOHdJN3Jx?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
-      "pubDateText": "2 hari lalu",
-      "category": "indonesia",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Kapolri Luncurkan Program Poliran, Polisi Peduli Pengangguran",
-      "link": "https://news.google.com/read/CBMiwgFBVV95cUxOZjVuZi1MeTVfT3pEaW5lbHNUMDIyRmxxbWl2WDZHTjYxZXZDajZwQ3NoMjFXQklxeFh2VGpVY1F0ZGlSN203VVRpX2RRZ0NaMm1jQVBhQ2NDWlBmS0JkNWJHcmdUNjFYdGlSS1o1eHBzcTVweW92bjBvSVdNT2I4c1BGX3NXT3pjNFY1a2IyREJiME1TNWk0TUtfS1AxNGR5Sy0tMVBkM3JCVXdoQy05NVhMM3pfU19XNXhhZTBfdUJEZ9IBxwFBVV95cUxONTlMZlNRTFFTRzl0bFRBNU1XcElfT1kxSlNUdzcxTmJrbDZhWXJaT1RrMVBnb2k0UkpQcnNqMjhfRGZwcTBLZUV4a0hLT204SFlsSngyMXZtUFVhSjBEaVBfanB2OFNSM2lUdEl3UnVpUmtGX2RaOW9Pd2dsTGdUUXNBZG56c0JxdE5DQU5wN3d5UjkyM0Fkem5jYmpNOEdQMjBIQVc5TEJtOUR3SmVqaE1WUUMwZEZzdWwyN1pWbk40QUJTZHgw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T04:38:15.641Z",
-      "pubDateText": "21 jam lalu",
+      "title": "Jenderal Hoegeng, Ali Sadikin hingga Sutan Takdir Ditetapkan sebagai Pahlawan Nasional",
+      "link": "https://news.google.com/read/CBMiwAFBVV95cUxQVmk4NkJoS29pWXJVMUFGdTdKdGp0T29ZTTVESGR3aFVSUzloVlZKNm1Bamk5WjhuaWtEZjFhUklLSnk4cXhhc1dJdFZZRVRRSUtiV0VsaGtZMndPTkhIVnJvVldsQjdmbjh2QjZmX2dOUGNLSENaUEN0dFhMYmFLb2lEdExhU0stME1fSDJ5WFFHelV0MElaaFZsanFZZnAwOUxqLWZ3UUN4cHQ0cjB5cFl6ZGM1ZWxWVkdmci15aVA?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T03:13:46.084Z",
+      "pubDateText": "23 jam lalu",
       "category": "indonesia",
       "source": "browser-scrape"
     },
     {
       "title": "Menhan AS Pete Hegseth Gagal Dimakzulkan, Trump Girang",
       "link": "https://news.google.com/read/CBMiogFBVV95cUxNbG5haWcyand3dmJIOUZERUhKejVzOXhmNnZZV1VCTkh4YkotbFpzS2Q0dV9aMHhHVkpRcF9IcURNSEUzcEMzM1JBdkxvd09sa0FqM1EyQmhoOWcwR3lfZWpJQ3RUV0M3TGh6R2F6QWotaEljLVFiY2FlQlFJWFFaNG5UNkdITHcyVkM1aTllZlZxMHhEcXoybUJzeld4bnFTdWfSAacBQVVfeXFMT3hselZ1dWIwUGNKZ0o5Ti1ZVDRyeHdPNkRvY0taUXJBLUhtUk9xaXN0NnpLODVSZ0drUmNvRmxnTmx0WTl3WjN0cHh5S3QydlBNbkVwM3U2Yk1zSHhqYzJWTXdMODd2SnpoS1F0UzBfekRYZUE1SU0zZzJTb0lZRGpNVmI5NzIxVDhnQ19nYkdUbVRsQS0zUWhnejFVazl1YUFURDM0Qmc?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T05:38:15.641Z",
-      "pubDateText": "20 jam lalu",
+      "pubDate": "2026-11-11T05:13:46.084Z",
+      "pubDateText": "21 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
-      "title": "Eisenkot Beri Isyarat Batal Koalisi dengan Partai Netanyahu, Kenapa?",
-      "link": "https://news.google.com/read/CBMi0gFBVV95cUxNN0s1UmpESG1YcDR5SUlibE5YRERBWWYyelUwc2dwVGNQWWZBc2NqYUJITUxRMWhDY1pOX0NZdmpNdFZFelA4OUMzSTNudktPcklLclVDT2J4MXRyYlV2aXk2TzItbWQ5ejUtVndyOWYtYkp6SGlnWUdnNEd2QTllRW1GbGdaazhJVlVXbXZZaXZBYXdDdGNpeGN6d1FmQlEtUTVGVXlzZDdtY0RNYkNBZlRHYTd2Y2VhTUJYUXFWN2RlNktxTWZaMGdGQnk1aHRNYVE?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T13:38:15.641Z",
-      "pubDateText": "12 jam lalu",
+      "title": "Kok Bisa Iran Dituduh Prancis Retas Kulkas di Supermarket?",
+      "link": "https://news.google.com/read/CBMipwFBVV95cUxQZHROX1R6UFdVamdwOE9tYTdjbmN3WDdKQjBWY2FzcjZkd2thLTNlUzhiUVE2c3I2RVUxLUdiUEdha1o5VUxQV3MwcFVNbUUzTVpZNDl2LVBhT09rLWN6c1lUUjItZE9oNzVCTS15eklMUDZyZEpJUFdwZDZVUXNVNkVybTJPdTlYZE1nSDBwTU9jVWNoQl9wRVhteVFpMmlzSHFSTHZ5Y9IBrAFBVV95cUxQQ3BUQ2V2TzJqNEY2Q1Y5Ui1tUEE3Q3RWTWNmREl6ZlkzbVJnUG1tX2J6NV9LazdpOW0yU1J1U3Q4ZUwzZkM5eVNncGRIZXdnYV8xUmZZVC1JclYyU21DUjgzRjRxdHhDR19Dc0hWQjZuVkx4WWgyeW5UZ1N1S0hfcXZJU0E4MUNETFdGRWlRUnpGdEVGLW85cWpYNUlPWW52UGtoSlhUbDBjbFdB?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T00:13:46.084Z",
+      "pubDateText": "2 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
       "title": "Iran Buka-bukaan Punya Kota Rudal Bawah Tanah Baru, Peringatkan AS",
       "link": "https://news.google.com/read/CBMiygFBVV95cUxQRDl0SE9FM1E2QkFsRm11SnhFc095TmVnbENjdk5aTHIxcjJFVVRtY2tyaUpPZjNiYmV4aHVjdHlHUE1mbEc1UnJHLUJueWlrLVZBSkMwTTgzWFVYYTNNTEJuanZaQ1A2RkpDVDVtS0tsOTd3Z1VQUV92NVNnQTNOeGwtT1VSZVpia3JnVmY4MGc0Zlc2SjNuR1I3akhSdXpVYm5vSHlHTDZJSVIxZ0p0cXpuN3VFS1RzN2FWVm1Ec0pPSktmRFBoQjRB?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T05:38:15.641Z",
-      "pubDateText": "20 jam lalu",
+      "pubDate": "2026-11-11T05:13:46.084Z",
+      "pubDateText": "21 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
-      "title": "Trump: Perang dengan Iran \"Secara Militer Efektif Berakhir\"",
-      "link": "https://news.google.com/read/CBMiugFBVV95cUxObTVUNmNXWWFJdURYRzZFcGk4NklFUTVCSDdjUzdscmRJR1dXQ0g3TnBfbENKenZ5REdWYkswNDZrM19FMmFXU1Q3eWRtMmpEa3IwTWhKeVR3bWJhYkZMMGZJcTc0U2U0dUFiUGF3YW83cU5YOHlkcXZqcXhCXzJHZlBZR2h1aXcwc1laRVhydUFBSXAtaG45XzdfTjdLbEZQbzdaNjRKVTdOOHg5RVZkZzA2YTNWS3N5bXfSAbgBQVVfeXFMTW9IdUZ4cno2d2g4emlvamNQZjRYWmNWQm85Zklqb2UtSHI0MkRCWnNOV09iYW9nNHNJYVN1bGxMaGZpR2h3eTMwelFzWUpxSzFXXzR1YTNBMmpvSG55Q2RQRlZPLVFQbmZId0xtMDUyWnVadk5GYjZ6ZTV3bDVRZXdUUk1TM29RSG5WZzRwODJiY2h1c0tEbWZTc1E4OWtoZ3BEb2VFb1BOU3p3bC1Yb2VNME1zTS1jcQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
-      "pubDateText": "2 hari lalu",
+      "title": "Eisenkot Beri Isyarat Batal Koalisi dengan Partai Netanyahu, Kenapa?",
+      "link": "https://news.google.com/read/CBMi0gFBVV95cUxNN0s1UmpESG1YcDR5SUlibE5YRERBWWYyelUwc2dwVGNQWWZBc2NqYUJITUxRMWhDY1pOX0NZdmpNdFZFelA4OUMzSTNudktPcklLclVDT2J4MXRyYlV2aXk2TzItbWQ5ejUtVndyOWYtYkp6SGlnWUdnNEd2QTllRW1GbGdaazhJVlVXbXZZaXZBYXdDdGNpeGN6d1FmQlEtUTVGVXlzZDdtY0RNYkNBZlRHYTd2Y2VhTUJYUXFWN2RlNktxTWZaMGdGQnk1aHRNYVE?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T14:13:46.084Z",
+      "pubDateText": "12 jam lalu",
+      "category": "dunia",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Rubio Ungkap Alasan AS Tak Lanjut Serang Iran: Sanksi Ekonomi Cukup",
+      "link": "https://news.google.com/read/CBMi0gFBVV95cUxNeWZiVV9od3IySF9FV3IxSWFaTU5MalB4alJPM2RyeVdnUFlmcG5EQlN2MEVsclVPbXlyNk5xQWRHSTlZYWxGT0FqaHRyV2pwUHhrOHZQMXg0M3N0MjVkZWhDWmVZRVk5LTVacnljTnBUUjdYRW9JaVE1UWJGeHhBUHhjekMzMWRRY1pwdEZMLXhLNlR6cHh2VkJVd3gxQk1sZDktRFhXN2NQd3JjdFBMUlJIZi1GQkR2S0dmOVUzcENydUNBbUM3R200MzJaZ3U2Z2c?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T02:13:46.084Z",
+      "pubDateText": "",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
       "title": "Teriakan demi Teriakan saat Trump dan Netanyahu Teleponan soal Iran",
       "link": "https://news.google.com/read/CBMitAFBVV95cUxPRmNYc1RtSTd4TjZXOXowOTZXbWlwZXlHbkthejJTR2lYZGlXZnFVOHRQZHhNQ19qTWZ4ZzVOZk8xc2VPaG9UejlxZUdXTWFCeGVBS3p2ckJkNnNlTmI5SnlmbTlwRGxwVWNESGx6aDA3NEp3WGNNYjNieWNOU2V1ZTFjdWNrS2dBLUltUEVNSjlpUkFzdkhZdUR0cG9JX2JrWU43eXpIY3RaTHdqTWhYS2M5MzfSAboBQVVfeXFMTzQ4Q2hTZWlybGxHUXVjcDVuVFE0WTJ5a3g5bldkQ0dIZ1JqRTlwMldQYTFSYVpIRjdIQmQwUDdIQlVUai14czJhaGo4OXVLeUc0eXp5YUpuM0Eta21fZmlLeklGT1pySXBKeTFWTU14UVd3VE1EQ2tvMkdyNTZCWS1tLTdZOXFHM0Zsc2JkTU9rSHhVWVZyZmp1Z0Y0djVkd2QtTlJ0Wi1tM0JJSXowOHhRR19BbFNTOE13?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T14:38:15.641Z",
+      "pubDate": "2026-11-11T15:13:46.084Z",
       "pubDateText": "11 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
@@ -127,47 +135,39 @@
     {
       "title": "4 Skenario Perang Iran Usai Republik Kalah Pemilu Sela, Trump Terjepit",
       "link": "https://news.google.com/read/CBMizwFBVV95cUxOZDJ0ZHVPalVTdVQ2a3JTSFdQQkZBRXcxd0xJeFBnczRQdkU5YzJlSWhGakZHM21RVk5iZkhrbjZxU2JWYkRySEVsUnI3ck1kcmQxUTBXWUZnU3pYMF9tU0wydjl0Q0d4bWRBVndySHlsUGN0bFRya2NOdkV3OEVtQUVDT3ZOQVNpT3hPSnhzY3d1TjFzaEkzaENJRU5HMWZwaXlIT1pjaVFkYkpOb2NfWnFpNW0xYTI1WFRLdExNVXpCS2dYalJzd0lyZUdaUms?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-06T01:38:15.641Z",
+      "pubDate": "2026-11-06T02:13:46.084Z",
       "pubDateText": "6 hari lalu",
-      "category": "dunia",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Iran Membalas, Tetapkan Angkatan Laut dan Udara Argentina sebagai Organisasi Teroris",
-      "link": "https://news.google.com/read/CBMiqgFBVV95cUxOM0pYV2pzQXRwQm9zdnF4bXl2MXRKYUNWcEE1SV9SOTRTSWlla0N1Ukl2aEF6R3N6YTlHWkt3Qy1Odm9jT0lkWGYtcDlyX3lIWFp2d3RaUGRxNkdFd3pDRlNudFFrRV9rTHljWE1pMHpqb1dJUGpSMHJIeWhpanVaWHZSWGNZbVBScDJaLVJVUFRBMWFJOHBNLUFqSGJZUHBJeGhFRVVoUVFkdw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
-      "pubDateText": "14 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
       "title": "⁠'Dapur Rudal' Houthi Diluluhlantakkan Saudi",
       "link": "https://news.google.com/read/CBMikgFBVV95cUxNZFlfSmVsX3RJd1ZFSURUNDFmaXYxTHF4U2FOOExVNmxpYzMzd0hpRnRYXzF1V1Rwd0Vpekc1VUNDdlpjYXhNckVuUFJGVVliTWU1bWhwdXVpLWFLWlNMbDU4SWFwbmF1bktvZndtZTY0dWVLUXA1bjMydWd6YXRmU2duZDZIWVNZdzlXMDI2aU02UdIBlwFBVV95cUxNUXlSY1RtUkhVSUVVcWI2ZzcwNWFmRlNSbk9tTkFXOUVxb29fdFBNVkdiM3BfOEhKQWZ2NXE4YWY4eTdYLUpBYlZDSnhRMFM3TVNJY0pkalg2NmNteXlRRTRkX3VHNi00WGFldk9wajlIWVUySjc3cGxlYjJWZDZpcHA5cFowaXNYRTNpdDFQQ01TeHQtdFk4?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
+      "category": "dunia",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Iran Membalas, Tetapkan Angkatan Laut dan Udara Argentina sebagai Organisasi Teroris",
+      "link": "https://news.google.com/read/CBMiqgFBVV95cUxOM0pYV2pzQXRwQm9zdnF4bXl2MXRKYUNWcEE1SV9SOTRTSWlla0N1Ukl2aEF6R3N6YTlHWkt3Qy1Odm9jT0lkWGYtcDlyX3lIWFp2d3RaUGRxNkdFd3pDRlNudFFrRV9rTHljWE1pMHpqb1dJUGpSMHJIeWhpanVaWHZSWGNZbVBScDJaLVJVUFRBMWFJOHBNLUFqSGJZUHBJeGhFRVVoUVFkdw?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T11:13:46.084Z",
+      "pubDateText": "15 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
       "title": "Bank Kolaps & Jutaan Rekening Dibekukan, 80% Pedagang Pasar Menjerit",
       "link": "https://news.google.com/read/CBMiwAFBVV95cUxNZkJBbDBNTENLQ2tBN0dmWGJpTzQ1OEZaaWxObUFHTTBHVmlfUDQzUzdTazNaakF2VmhVcVJLVmxMMkZoUU9XYlhqdkJWUE5rMGdleU1JX0loVl9fNGZLUE5BWW5wYUZMdmpNbi1yVFFUUGM0MzF3eFVoSGMyVVptRUo5WUN0Z3c0aFFpMktNNWtrSkZkM1p6dXhfT1pvY3oxbVVHemROa3dxdE5iTnZKWVAtdTZSUHEycnhiTTljX23SAcYBQVVfeXFMTWpwaExzWG5HYUxtY0FRQ0tYbTN1a1VIc1duV0ZEU3hadlotQ1MyUHd6Qk52Mmg4ZGV4V0g5WHM4RW5ad1lnUTBFb1c2Q0V1VlpMSWczMUF4Z2ppRUR3SmV6LWJjTzFHR1JhY09vSmY0YUY0S19YYjRvZ3FNT0hIWFFRczk0bEVMeUZ1ZW1IRWZBemFmcUNhMGNMMG8tOGQ0SzRLSjZyU29pa0Q1NlR6QVhBaGpfV2lVclFVRTV4dHBvcmg0cHhB?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T22:38:15.641Z",
-      "pubDateText": "3 jam lalu",
-      "category": "dunia",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Lautan Manusia di Perancis, 575.000 Warga Turun ke Jalan Ikut Demo",
-      "link": "https://news.google.com/read/CBMixwFBVV95cUxPTlF5R1Bha1JHRHp2aWZfRG56SnMzU1lmb1FrcjhxT0FocDZFQ3AtNHhwM3h2Rms0TFhMWkFjZ2ZtQ3FBaF9zaUlkdFNQQ3pnc3FHOHdHTGlSVGlDU2hfNVZKX1l2MWtxMHhPcURhb2g1cmFrWnI3ZktRYTZ0NnV0Ml95TGE2QWU2eW5vVGRZUGxZNWJUaG5oTU1RTFlScGV4OFkxUERLZTVreVE1VVVzZWVCRUdTVGU2d0UzNFdfbXhCSmF2ekRR0gG7AUFVX3lxTFBmUmV6aUhfWTI4LVFWM3ZYUC1YcERob1N6bkIxajNVcEJRbkhpWjRVdUVxS0JaY0JGN3RyY2Rqc2lxalhMV0gyRXh0cHRIYzlfMXNwaDFmcW5tQWtaRnZoRU1sc3BhY1hSTGlEenhIWnlVdnJPTm40V1dDMTZ6M0Fwd2V0ajR5c0ZIQTgzeXRhcUlFOVFrRWx3NGhmLXZGdnloMzAyS05FNm5hVlg3cnNQdVdsUGtSUU82NTA?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-06T01:38:15.641Z",
-      "pubDateText": "6 hari lalu",
+      "pubDate": "2026-11-11T22:13:46.084Z",
+      "pubDateText": "4 jam lalu",
       "category": "dunia",
       "source": "browser-scrape"
     },
     {
       "title": "MSCI Keluarkan BRPT & BRMS, 7 Saham Ikut Tersingkir",
       "link": "https://news.google.com/read/CBMirwFBVV95cUxNUDhweFZWTFJlcnlPRy1ZdUZfY1NyNHM2bThxbmEtWW9ESjd4dDdBSkxKLTFoeDM0Q3BfT20yZDZvS3dlV1I5eExwTXhzRXlRMlhyOXBJV1pMSHJ0ZjQyNW9vdm5mU202OWQ2dFdvX1lUbTZLR2NFam9tQ3RGZ3Q2S1c3Qm5Fa3E2a2prc01RdTJHTFhVSU13cVlNSmJZaTdrNnRCNWNFaUxiR21WU3l3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T23:38:15.641Z",
+      "pubDate": "2026-11-12T00:13:46.084Z",
       "pubDateText": "2 jam lalu",
       "category": "bisnis",
       "source": "browser-scrape"
@@ -175,31 +175,39 @@
     {
       "title": "Resmi! 383 Saham HSC Didepak dari IHSG, Efektif Mulai 13 November 2026",
       "link": "https://news.google.com/read/CBMiogFBVV95cUxPZzFDVTV4QVc1VWF2YmJPNUJ2TG1DRXdqTzVfdDhqQUFoWkpOajQxWkEtTGF5TXRPeW5XWmJBYVpPYnZ1ekVxbVNGRWM3eUtmZnktbG1qSTA1amZxbGhPQ1JuV291NUR1NUZHdjdDTGtKUWYtVUVxdXptVV9YUk5fSWlBTkRVTTlPRHhFOGVXcUhvMTlTd0N4Ym82RWVJTm1fU0E?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T00:59:15.641Z",
-      "pubDateText": "39 menit lalu",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
+      "category": "bisnis",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "IHSG Ditutup Turun 0,21%, Asing Malah Borong 10 Saham Ini",
+      "link": "https://news.google.com/read/CBMitwFBVV95cUxPY09uMFJ0U0tkWW43ZUxQRVozam9qeUppSTlVZGptS0UxNDJwR0h6QXNwWnRGUDh1T20xcFpLRmFkZ3dZVHpzNVBGZWdVWHF5QV9NZ1lRdlhrc1F3dzdxSU93V0hWTjh6SXRVSnNSZ0FmV2pUMmh1cFE5cDVZSjZXR05hNFpKc2RodTA5Mm42RFNQVFFSSW5qT2F0SkFwNC1jTTFVWmwyaXdFYTdXME1jQnhwRFJqSnfSAbwBQVVfeXFMTmpDMHVFUms5RmlPUkZhY2g3eUlKc01Zdmp5Smd5MzRFbEc0ek9YV3hJMk9scmg5WHJFdzNPUjUzU0dGRnVtZ3V0X2N1QzhVODZFVXdfZzJFdDR5R2JEM2wzN3d5VmVLWUhwNF9wR1VjUnB4d3BEZkpRVEpBVkFLa3cxeUkzWFNBZHJhZ19jby1GaVFYbTZ4Y0dyNDJVeV9VaTdyQ01peVNmdE1XLUdlWUIzUklsTU96cF9aMGc?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
+      "category": "bisnis",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Skandal Jensen Huang Makin Panas, Dilaporkan Selingkuh dengan Anak Buah",
+      "link": "https://news.google.com/read/CBMiswFBVV95cUxNbS1rU0pyQzVDWG5sMFFWMklnWEdRd0xaLXdjazVKS25RT19zYmEtcUc0aG5KUFV5eGVSUm5BazBvZE5MVGZUQkluRnVDNkZnbVoyOHB3RDdlcWZtNUNrWGR0b3dXRjA0NGVSYU1WbUNDdFBxa2dPaUdMNWlUMV9sVnA3N3UyVGl3Z2piRUE2SzVjWExKQ1pBVEVFMkVlVENiNlh0UzVaVExYS0xZVHJKSWs2NNIBuAFBVV95cUxNYzFvTlNFNzlHZlktR0pWYXNTbERGQWZMQTRXQVpmd1U2MjdxT2xISWlGaFIwdS1rNVdYdlR0LUxtdGVFNzQyM0lDNE1XVzBycEJnSU1lMmZCT0Fab29YTmNPQlZQUUpNUU5LTndNcmgxTWxlU0RNWTdScHhkM0FCWS1EU3k3U2prS0t3YkZzTDdnR3I3MVNTZlRlSWlYd3NTNU82SkxqcktCNzRraXNUNm1VeVZTLUhn?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:15:46.084Z",
+      "pubDateText": "58 menit lalu",
       "category": "bisnis",
       "source": "browser-scrape"
     },
     {
       "title": "RI Dikepung 3 Badai: Politik Memanas, Drama MSCI & Ancaman dari Fed-AS",
       "link": "https://news.google.com/read/CBMiywFBVV95cUxQdFNXalktVUZvZi1MQnBCd0FILVNfdHJ0cXBHWkNFTllNYXVidVZFUktNdTNNU3JVY19ORTl5NDVobGt6QUlwMF9SWUlTN1QwejdNeWh6eGtWRnh6VThlX3VpRVFkdkYxUkZCTzRJOTFoN3E2NFRpSXoxdDlLWkg2RHAzSHdzMlRqUlFiTldUb2NUZE9pbWljc2ItX3VvX1JpcjhYNzFUR2RNYzY4TDVsX1I4eE5TOE9tdzExamg2OXppdGg2YktfcndpVQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
-      "category": "bisnis",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Dikaitkan Kasus Bos Nvidia, Kenapa Orang Bisa Selingkuh Meski Punya Pasangan?",
-      "link": "https://news.google.com/read/CBMiyAFBVV95cUxNRnN5V0JwSUZZdDVmTTVhSXZJR214YkRKd0lxOGFuQkI2ZldISjMyT0x1aFV2eXJwbl93UEdaZE1OZ3FZWHByWEJGam5IOU43M1JnYUpIZEFsaEw1UWppTDlvRzdLTGtzNDEtNnA2NGhhR2RTUVRKZ1YtNjVuNEFzTEg1c284S1B3aVZKWndXTjM3eWlQaEpnUFFiaWtfd2dCRF9kM0NkNVBoaGQzZ1RQb1JManFZNHZfY0Vyak1RNVE1akpGcUNSU9IBzgFBVV95cUxQcURxZXBJZWNDU1FlNjhZUndzaVZDYkpZQWI5OVBMX1p2cTlBNE1tNWdaX1FXV3ZwUHNWSzNqczFnXy1GQS1rQ2lKZEYyNldDYzZ2cFFiaUQtcG5WbDJQMXpjWWo2ZnZZbDJJaTJfMDZ1VHhCeWVqY1JlZVBCSjNkX3k1bDhPdm96RERXT1Z5WUI1NTlrSHM3dXBGTnE5Y3ZYaXpRNzJOanJfdXZJdXdRQXlZdVVlMW9ZRk1VdVRFN0t2eE9ZaUlFclE5TldwZw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T12:38:15.641Z",
-      "pubDateText": "13 jam lalu",
       "category": "bisnis",
       "source": "browser-scrape"
     },
     {
       "title": "Harga Emas Jatuh Hampir 3%, Muncul Ancaman Baru yang Menyeramkan!",
       "link": "https://news.google.com/read/CBMixgFBVV95cUxOZzQ5RjVLVFJBRDNHcmVaLUZyY1R0Q3dicmxhZmhxMmRBME1fS1cyOGxrdGpsTTJPbmFXQWlac181VE5YZlBWQjZCS2xkS3QwOWdPWVpzTllUanpodDZqNmd1cl9aUEVpa0Nwdzc2bS0tdTA0Y2FrZldPQnNNNmo5aUpnTkRkSGZRRUpWRklfWTNPRGZreWFXRGZrcnJhS3EtMzBCaGRITXVVazBYUkdfVzEyMVQ0cGdabF9MS3N2bmRUVnZlQUE?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "bisnis",
       "source": "browser-scrape"
@@ -207,127 +215,119 @@
     {
       "title": "MSCI Ancam Turunkan Status Bursa RI, 9 Saham Ini Paling Tertekan",
       "link": "https://news.google.com/read/CBMiwAFBVV95cUxOTmRzZnVOU0plNldzLWN1by1JZGpiNUZLclJvZmVoVUE4OU1zcURUYTc1MXQ3aVFvanhoRVlaNkJnWEpjNGZjdW1CcHR4NXJ6Ni1aUnFBMHNvbFcyRFplMFpTUjJFM3NlV0RudGEzajZ0ajUwdmprbVlJVnVLRW5ZemJvajBxX0hVNVcxV1pXMVU5SWtfZEN1S3duZDVnVHV3Z2N4QmI2QjM2aGl0ckY3OUpRcDJqa0lNdnM2ZlFsQ0w?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-06T01:38:15.641Z",
+      "pubDate": "2026-11-06T02:13:46.084Z",
       "pubDateText": "6 hari lalu",
-      "category": "bisnis",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Dolar Mengamuk Saat RI Diguncang Drama MSCI & Isu Mundurnya Gibran",
-      "link": "https://news.google.com/read/CBMiyAFBVV95cUxPeVZ0S25YMThuYmNRcTV2YlMtSU5lYXhka2Zoel9iRll0dmxJNFdraVNUcVE0QjVKN1FUMngyN3dreDBZVDZTRXFDd0VZck5vdERDbEZraWdxdjV0ODR1Rk15QTNzYnlyWUthdjdRS3JKQVYtNjBYdGw5MlpaNDlxa2ZlbWRLSUI4Ums3VmN6dG9CVFRLc0FPaE1Pc04yY3BQdzJwLXdBN3FQZS1xY2J1ZXpVRUdxLUFiNEUzREZxM0duRHdzN3QtdA?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T23:38:15.641Z",
-      "pubDateText": "2 jam lalu",
       "category": "bisnis",
       "source": "browser-scrape"
     },
     {
       "title": "🛢️ Harga Minyak -7,6% seiring Trump Sebut Serangan ke Iran Tidak Diperlukan",
       "link": "https://news.google.com/read/CBMisAFBVV95cUxQcDVIQk54Y0VqVmhaYl9hMWVDajY4VWpMUEJWY1FITm5Ca3JURFR6akVVYy05Ym5TSXVOajhiTkdIdEdFVEJFdGYzSk5aZ2pnZmZkQnI5UlI3a0xaTVFvWnVTRWxwYkp3ZzIyM3NVUDVzcVB2a0F4M2ZwTXdtcUhtQUp0THY1dnhyem1iRUY4Q2swaDdxNWdTQTNLeDN4MmNDUHhJY054UkRrS0txMHU2Wg?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "bisnis",
       "source": "browser-scrape"
     },
     {
-      "title": "4 MI BUMN Digabung Jadi Danareksa Investments, Kelola Dana Rp 172,5 T",
-      "link": "https://news.google.com/read/CBMivAFBVV95cUxPOFJFWDR3YlZVQnd1YlBVcXdaeTNoYk5Sc3FBMlpYZzhzVFJUaUVEMlFKMGRIZWl6YjNkYlFIV1NOVksxMlg5VVpGbldpNkNaXzlKc2FNSnljT2RQaENoVFp0OENqQUEwOTZyeW9HN1NJY2pIUDhWMVAtZUxScng0aUdKeUlBTTZsLW43N3BqMHFnSFFDLXVKaTRWVDktR2pkWnZXZTBhMWlSSXdZdjJrZGc4UjJrMF96ZHdzcNIBwgFBVV95cUxPNWxZQzQ3RnhyeEZiQTFmYUs5VFRpbXN2X2Y2aS1JUm1aWnZWb1UxV21hc1plRGp5WW5ZazFPYXFhUHhzZzVCNUpOcUxjVEdHbGIxSUFOSmdJRzB2VFJhdG0zdElZUU03cHNtb3U2clo1bVp0eTR1UUFYRl9ZeXJfZjB0R2dITmNEN200QWlZcm85OHlaNGR2M1c2OWcwZnNxWUh3TmhOQ01pZ1Vrcm5RRERYc0tfam5RaDlTZnQ4NzRJQQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
-      "pubDateText": "14 jam lalu",
+      "title": "Harga Minyak Mentah RI Naik Jadi US$ 117,24/Barel",
+      "link": "https://news.google.com/read/CBMilgFBVV95cUxOQk1aUEIzUmx1Tld1cG11S1pYVy1jZno4bThsR0VMRmVRd25yQzRzZWU2bTN0NWpaZEFxak54bE5hZHZUR3JhQVdSY3hxZ2FsUDVOazJzU1V0d0J2QzRvaGNHOHl5NEpFX3E4enF0RXVzRFJIV05IN1U2X3FjaTkzZWNsOTJGUENwRXNIVDBZN1VMeGt0SkHSAZsBQVVfeXFMTTNHVGxIS0ttX0phZFI5dzJIc2t5dWN6aFpRQlJac0Qzb2xLdUhiOWZIaC1qSmpzQzZUaGM4UVBPZm9KQjctay12NkRyRmtFTHpud2lvUW1ZY3VzMUlBOEg2Rzd6U2k0Uk1XMmdnOE5aMGJicm44MjVGbk9VNlZicUZUYmJHNjVmT2VjalYtbjJmdWZ0TFdwZGI3aDg?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
       "category": "bisnis",
       "source": "browser-scrape"
     },
     {
-      "title": "Prediksi IHSG & Nilai Tukar Rupiah Usai Kabar Gibran Mundur dari Wapres",
-      "link": "https://news.google.com/read/CBMivgFBVV95cUxNWE1WWG50SFFDNGNySGU5UWRYMXV3TFpscGY5Q0hEM1YwV24yZkloRndqSTgwTXA4OVpDd1VNWDFTRno5TFlWUkVnOFNVSDZTSVh2SXRvWW5zTW84VjZ4LWxwcXZ2blplQ1hlY0JaNExKS29LeGxnQVJFS1dNV0xqUkQtQUlmNnhVa2s4Mk95MWNPM3VLN1FJTmVZbUt6YVVtMld4WkIxbEI5d1VmbjR5bnJRbkgzRnJUNjg5RmRB0gHDAUFVX3lxTFBYdkJNczdUZ1k1ZFFzcGlzSEZwbGxOdFdpWUZMYnFHaW5UV2d1YzFCR0RURUNwaHRwQzU2VEtoVmgtYXlkNmR5VGZJTXVVRjVKMUtWRElqcjEzTmlkdXgyVk9Na3FEWjlNSGFiTzZzRTh1c0RZRnBVRDNOeEp6NEV4YWJFb0RNaFNaZVF6YWI4cDJNdHA5LVBpZENydTMteHphZm8tM1N1cnZxMlVVanJjME1ZMnktOGlqUldjUERLa2ZkZw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T15:38:15.641Z",
-      "pubDateText": "10 jam lalu",
+      "title": "Harapan Mobil Hybrid Bebas Ganjil Genap",
+      "link": "https://news.google.com/read/CBMigwFBVV95cUxOZlExOUllZUNPbkJpRVpSMTRoSi12RHVCVFVpYk9zeVpTVHBacURMNlhTVTRLZmc0SUl1d2xBWEREMmdxb3QyTFMzRURBVHRrMHV0UEVkaVZ6b29od2hONDM1clZKcFRyVFEwVHA2cXZickFsOEhKOV9XYTI1TGFweTN1RdIBiAFBVV95cUxPbWp2NzFHenRrZGlmVTVNVGtVdUFsbzBRckpDVDZDLTJPMV9CVHN1c3V2X1dWMmhvV0RYVzl3OGhiLXZCdFpYenFwTzlBa29wNXFmRkllNWNJYUVGaWs4YmJ1NXJjNXhNX0x3VEM3UkJhV2JLeXVDM0ZLSEkzRXg4WTdqYU5SRjFh?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
       "category": "bisnis",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Mode Performa Maksimal pada Smartphone Gaming, Perbandingan Konsumsi Baterai dan Stabilitas Mahjong Ways selama Sesi Panjang",
-      "link": "https://news.google.com/read/CBMi-gFBVV95cUxPMk9NMWlzVnFodzZPLTNkd1FUOGNCTjlSTFVzb2p0a0hFbEQ4SHlIc1AyV2M3bWhrQVBJOUw0T25xOTZsVzAwMk9TSUZhenctMThYTE0wY2w3UDZPZmtfcVJCMFE1clVheTN3MEhKUWxuSG9UVEdVYjUxVFFzbERlRzhwaXdDUS04Yng3SGRJM2FTZmlyZy02X3NhYjBtd1hJNUp4Tk52cEhxdUFQc2NQc0VIM3YzdmVzZV9NQzZicmZtdHp1R3h2V29yYjZWRkF4SFJPdDYwVDBKZU9Ja19hLW9odmF1T2FkaE9BaGJsVlN2ZXRWb3BlNC1R?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T10:38:15.641Z",
-      "pubDateText": "15 jam lalu",
-      "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "GTA 6 Mulai Bisa Diunduh, Simak Cara Pre-load di PS5 dan Xbox Series X/S Sebelum Rilis Resmi",
       "link": "https://news.google.com/read/CBMisgFBVV95cUxNQVpaX2ZfN2dNcmlJTnA2Q3NwdHotTWswemVzLTlQLWp2elRSZmV4ZkIyYS1HZEFLeEdpdEZIUFQ2bmppdlhYQmdoU2tFYjBKSmU0b056OUtCVnVteTRqeXRWT1JySWNyZEk5c0g4dUpQY2FaRzZYYm1FT0JTVFBwQUd1Z3lIVG1RUnFUdXd4NXBkYkJjSXNDMUxseVFlUkxKaU1LYnNhTlI1T3NMLXdTMlNR?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T01:23:15.641Z",
-      "pubDateText": "15 menit lalu",
+      "pubDate": "2026-11-12T01:22:46.084Z",
+      "pubDateText": "51 menit lalu",
+      "category": "teknologi",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Mode Performa Maksimal pada Smartphone Gaming, Perbandingan Konsumsi Baterai dan Stabilitas Mahjong Ways selama Sesi Panjang",
+      "link": "https://news.google.com/read/CBMi-gFBVV95cUxPMk9NMWlzVnFodzZPLTNkd1FUOGNCTjlSTFVzb2p0a0hFbEQ4SHlIc1AyV2M3bWhrQVBJOUw0T25xOTZsVzAwMk9TSUZhenctMThYTE0wY2w3UDZPZmtfcVJCMFE1clVheTN3MEhKUWxuSG9UVEdVYjUxVFFzbERlRzhwaXdDUS04Yng3SGRJM2FTZmlyZy02X3NhYjBtd1hJNUp4Tk52cEhxdUFQc2NQc0VIM3YzdmVzZV9NQzZicmZtdHp1R3h2V29yYjZWRkF4SFJPdDYwVDBKZU9Ja19hLW9odmF1T2FkaE9BaGJsVlN2ZXRWb3BlNC1R?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T10:13:46.084Z",
+      "pubDateText": "16 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "Dari Rasa Penasaran hingga Jadi Karya, Galaxy Tab S12 Series Bantu Wujudkan Ide Kreatifmu",
       "link": "https://news.google.com/read/CBMiugFBVV95cUxNTkNGTy10TzhOREp2UndUenpEVHJWekMxNWV5cGRjOVQyTXhqMUdibk5LM1hrVzBIMHRnZkZZLXBFaHh3VURvQ3ZEbHAwX0hMeXpueEJLSWZZNFQ2QTkxTl9oZFFTdWVNN2RlWGFEN3huZGs0VGdfd3otMkZhUjlMNHUtdHB3SVVvSTN2bkgzTEJUdHFxT3lQR0lHUm9TOUZkMkIzcG5OWHJxU0M2Sk1fOU9wSXE0RlNGTVE?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T03:38:15.641Z",
-      "pubDateText": "22 jam lalu",
+      "pubDate": "2026-11-11T03:13:46.084Z",
+      "pubDateText": "23 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "Acer Pamer Googlebook dan Rangkaian Laptop AI di RI, Intip Speknya",
       "link": "https://news.google.com/read/CBMiywFBVV95cUxOb2U0bDBFOUJuVTNfTEg3OUdVN09vUWZ1bUxBVUJKQURGSEREdFJjX055ejdxMmVDTnpKS0d6NjRuTnR2UE03VVRSek5UZ0hWR3hLQ1A3U2dKMXdWM2dhZUJDbUx1WmlnTlZwZ1NJQVJHUEh5NDd0QnlmTm9rdnRRVjNaSHpscnY5UG1mR1lOaW4tME1qVlFIa0o5cDRJcHZaUWVIMjktUGgtRTlrUC05Wi05eTJLMVAzSGhvZ0twdEZ3YkhiclBqMHUxRQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T01:00:15.641Z",
-      "pubDateText": "38 menit lalu",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
-      "title": "Samsung kembangkan ponsel \"rollable vertikal\"",
-      "link": "https://news.google.com/read/CBMijgFBVV95cUxNWDh4X01BY0stRDV1S3VWT2wxWXJ5a0FjN1lldFNJQnVZRlhtWWhxa2M1M2UwUzFPam9kanp2RmtoaFVSMkgtT203YnRhb0xJR2ZfZmVkVDl4TWhRaUZLdlFIbnNXU1NLNnlTSWlGaDNibjVZalZuZ2htalExNzZhbTVLRlRvMXZHSE9DQ0V3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T00:38:15.641Z",
-      "pubDateText": "1 jam lalu",
+      "title": "The Outer Worlds 2 akhirnya mendapatkan DLC yang dijanjikan pada 2 Desember",
+      "link": "https://news.google.com/read/CBMiqAFBVV95cUxOVTMzREZPTG14dnZhV0V6NWdwRGJlX3JTd0Y0NmJlRHFIdGZ3dWdPcWtqMVRtR0N5VFZSZ1hnWFFQUU8wcTNRdmJCZlJsX3pWNElOR3FxMjVzd2M1Sl9WbUJlY3Badk1fcUxpZXZTZ0NnUFZEYkpZYUdhWEpfUDc4czFpdE53ZTNYUnBQcENndTFGaC1HRTZaN3E3bDB3bnl2Ymg5YXkxaE8?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:52:46.084Z",
+      "pubDateText": "21 menit lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "Stray Minecraft Kini Muncul di 6 Biome, Armor Kulit Cegah Konversi",
       "link": "https://news.google.com/read/CBMipwFBVV95cUxQcmJCcjFBV1I0OXpRaExZa203QVlZaDRsREYtVjRuWWVxalVfTjVtVEtDTlZ1S3ZrdXVSMjJKdW5TVmNCZE5CNWNqZW14TGdRRXFMRjdlR0NuUDBLZm5kVUZFdjNxOWxsUlNXTWpPMVVGLVhLWDlHQXlFU0ZxVHBadDRNSWg3Q1pYZFphbkZwVk5VbmVmejFMTk5aR0s0YVE1dFNhQkQtVQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T21:38:15.641Z",
+      "pubDate": "2026-11-11T22:13:46.084Z",
       "pubDateText": "4 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
-      "title": "8BitDo Rilis Ultimate 3C+ Wired Dengan Harga Terjangkau",
-      "link": "https://news.google.com/read/CBMibEFVX3lxTE9mcHpRYmVZUUl4YWVqVEl1YXcyTU9qcWJSYlp6YXZJN29oX0tOSlRvN2lQOXJXRFpqdWpBbk9OazBoaHk2RFU5SW1kbk1BbG0ydGdtTnRCV1JiUzJpVkoxbnlPeHNUOWFEVjdpcQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T13:38:15.641Z",
-      "pubDateText": "12 jam lalu",
+      "title": "Google luncurkan asisten suara Gemini AI ke dasbor Apple CarPlay",
+      "link": "https://news.google.com/read/CBMivAFBVV95cUxNTlotMmN3eGFOdXN1NGUzMGRrUG8ySVFtQzJsa3FQclRhTGdKX0hfa3U0TE5KS2oybThTRmhpVW9FVEd3cG5Id2xuMUg3eEx6cGVsWENReWt5QUxnQ3VHWEhZbkdvSlhDMmdHNnNnYW1pTzVTLUtsYUFyZTBTVWFqbG5tUmtMR0Y3N041NGRPRlM1NmZCT28tUXJnVk9uR3QtUi1Vc0J6SEZrMUJaenJ6SUZ6THY1UDYwM2FRTA?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T20:13:46.084Z",
+      "pubDateText": "6 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "GlintLine, Game Neon Buatan AndrCa yang Masuk 5 Besar Play Store",
       "link": "https://news.google.com/read/CBMipAFBVV95cUxNQVJoaVBub3A3cTNzMXFKYzBYRzltS2hSYXQwY0JnYjBHODUtMDBDSnhfQ2V2QW8xU282QzFEbWh6M2VqUGs5OTBmR0lRWlJEMFZ6S3pXSGZ0YmRHMTNtQkZKNk0zU3dJbXhHanUzcG9nSjRnMG5aSGdVZElVN1hjMG9JbTA4Z254Zkc0YS1zM2pwN29ueXZxaDZrV0F1a1F0NU8zTg?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T22:38:15.641Z",
-      "pubDateText": "3 jam lalu",
+      "pubDate": "2026-11-11T22:13:46.084Z",
+      "pubDateText": "4 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "Clicker DIY: ASMR Charm Master, Game Bikin Gantungan Kunci yang Viral",
       "link": "https://news.google.com/read/CBMiqgFBVV95cUxNNzVtR2NVQlRhMzlkV19waXJiVXVhOVdfMFJ1eHJWN05oVU9kTmRoYkc2SDlLUXZWMVBxODlTd3ozUV9PVTh6ME9fUFl4Q2ZhVjREbks5a0hOWDFNUkc2UU42QUJuSmpMcXg3YVhYYTg4T19XRjhONnBKaGwySnhsc2RyYzlEdVRoZjlIWTZnalJWM3pNcTNHdW5xY2FzQVltcGU3Sm9UYk5vQQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T22:38:15.641Z",
-      "pubDateText": "3 jam lalu",
+      "pubDate": "2026-11-11T22:13:46.084Z",
+      "pubDateText": "4 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
-      "title": "Cold Sulfur Cube Minecraft: Cara Bikin Jembatan Es dari Blue Ice",
-      "link": "https://news.google.com/read/CBMipAFBVV95cUxNcEtoYUE3SU1xWE1wLXFMdUZwdXhkSXNDdm1HMHY0WUlKYi1MYzU2SDU4d0RZZHVqZTlMY1h6U3ktV0c1c0NMak5rSGdvVlZoNTZtLWlaNXptRXZ3Wjk5T3N1WEFnZVREYk9FM0FCV3RucWZNc29fWXI2YW96RWJOLThDNXZ6UTJjNWlXM3dJMC1DOU4zWlpDU042Uk1VZ2YteGtsWQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T21:38:15.641Z",
-      "pubDateText": "4 jam lalu",
+      "title": "Infinix SMART 20e ditawarkan seharga Rp2 jutaan di Indonesia",
+      "link": "https://news.google.com/read/CBMiqAFBVV95cUxORW1SNUN1WEZJUEJnN0V3dzFlU2hJS192ZGVWZnBmLXgyZURvWEFTX0FaNEROYWZCaWN2R0lWeVd0NTg4Q0FGWEFNQVJDcDlJOXVFYTNaSEpla1UtTUJMT0FYOUJwM3VXa3JPSk1tOV9ORFdJQ3JlMkdnTFRIdVJNdUhUWG9rUXg3ZG5CZnVscmFFekx4N0xHMUp4UzhaUXVnT0g1eTlpS00?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T10:13:46.084Z",
+      "pubDateText": "16 jam lalu",
       "category": "teknologi",
       "source": "browser-scrape"
     },
     {
       "title": "Mediasi Ruben-Sarwendah soal Utang Rp12,4 M Berakhir Buntu",
       "link": "https://news.google.com/read/CBMivgFBVV95cUxOd3lSbDhOa0tNRWVTTzU0SHM1czNtak9oVll4NlMyRnR6LWFMcGVUV2pYSWVBZEdSZkpBVHF2WGtGLVRHbm5RRWpPanNSQk12ZkxSSkpiV1d2dHl5XzhSZHQ5TC1UejJjemFac2FIV0QydXJuaUEzcXk2S0l4TmZwTGk1dE8xTVBocTZlb0hlVGFYd0liSmFiaW51V3lEbkY4SmU2dDdkeHVocERSMm8yUkJsWE83OVYxRld2bW1R0gHDAUFVX3lxTE1JNVZFd09xMnVWenNXbFZ4MmFtLUdXLWRfQ2xSSDZoMFRTcWoyN1NuNjdBVDlHR2ZLLVJ5TGNoNzY2NG1pNWd1UlRzR2VzcWRyMUdjM3VMUk5xUmFLUHh0OHNjZ1F3cndaVWt1ajV0c1pfTUN1aHdZT21sNXNaeS1HZ2lFbXFzek1tbFBOZ1ZVMFVGV25hVGtweU50T0w2cll3b1RUT2dJV0FnWFBLQkxUcm1uTF9uU3BsWFZDM01mVmhNbw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "hiburan",
       "source": "browser-scrape"
@@ -335,15 +335,15 @@
     {
       "title": "Pernikahan Nirina Zubir-Ernest Goyah di Usia 9 Tahun, Damai karena Sepedaan",
       "link": "https://news.google.com/read/CBMisgFBVV95cUxPcWJDYTNicnFZSXJMc0RGbU9DdENIV005Y1h0LTM2bDBaWUUxV3ZXa0hJVUhxTXlRSWlXXy1HajNVWFBMQ1kwR1JlTXpzQkJ3Q0FSdFg4N1VKd2tqNk5TNEFiS3VWeUtHanRRRXdZRXIxRGhnNXNrN3hPa1V3WGkwSmtjSUp3dl9iT21PVWJYR0ZQUDhtdmNQc1Y2MVhpNkRUQlBpQk55QjFrM2lOTldsM1lR0gG3AUFVX3lxTE9rSmM5NkloZE1HZWdNMEMtTnNfbjRleF9VR3VQaTJZRDV2Sm1PQm12UlhzWklHV21oQ2pQQXRKeVZmRV9MdnNKMWVTLTdCa0tZbS1qNno5blZ6T2w3ZVpNRU1jdENlRlljQ3JELVZXR2pmRjUyRE9pa2FiOEEwdXdHeGhwN1JVUmZtSjJJbnF6TlRFRm9BWjctbHB5aDdlamZWYmtZRHpjMFlYZmE5MjNHVEk2V1BsYw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T00:38:15.641Z",
-      "pubDateText": "1 jam lalu",
+      "pubDate": "2026-11-12T00:13:46.084Z",
+      "pubDateText": "2 jam lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "Potret Kirana Anak Semata Wayang Anggun C. Sasmi yang Kini Berusia 19 Tahun",
       "link": "https://news.google.com/read/CBMizwFBVV95cUxNOVFRenFvcVZ5UzJJX3NxZzJra1BRcE55aGNYTkkyQmx2Znl4NlJyd2FrbVRYTTRCRjFnRVRCQ1dSZzlZMk1LRjlXMF9sNXZCbldfaFpFZHNLNnZfZGxUT0hUb3cwNWRyVDJIZFhFNXloTy1QdGpwdmVCUTZDaEw1TkhXOVRQb25PR2tCTlFSdThpUy1tMmFhTWY3N1YzTi1ZcjMzS3NzNHB3ckZZQzh4MWVnMXNvRWlMbUxYREFYLUdwY0UyVEF4aERlUVVhLWfSAdQBQVVfeXFMTzlKNmR0TFluX2daaWxKTVh3bHYyUHFvR3djVTlZZUpmeGN2bGJISmpwRDZwSGxLWENrZmFJZTE5ZGhTa1NKenM1dm9fQ1hTajdsYWNfRHdVajB4UTJfdUlkcG9WSGdsOHRYdWxLSkxWWGtkMmpySkhvS2lCaXZEbU1aTHFDV2xzemVwMzZkUFpfeXhadlBfVF8wbUl5ODNFdFZLQl9XS0lWb0M3MWVtcmRvU0NSZVFjQ1dRTThzYm85ZGdlclhfa3Q4QXg1STIwVFcyY28?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "hiburan",
       "source": "browser-scrape"
@@ -351,31 +351,39 @@
     {
       "title": "Berubah Usai Oplas, Sarita Abdul Mukti Disinggung Soal Jodoh",
       "link": "https://news.google.com/read/CBMingFBVV95cUxNY2lBYVo0Q0dSVWVBdEh4Y2c3WEVZaDhrZUo1LUs2Z2FYUDY2YUZkamRGTHF2Z2J1aV9ja1ZyMmMtYmZFejUzb2NhX3NuLXdJT3o0RHJYY05ZbzFqMERiOVY3c0ZlU3ZGRzJQSU5qY2E4aEVOUnV5NkZTYkJzVUdGOGdUeVVzbGpNQ3R0SE8xNlNPdjhhWTFQT053ZzFKUdIBowFBVV95cUxQdVg2NDlGOVUtZFloQVFycFhuQnhSWVUxTWw5LWRiejY5dWlrNnp1VDRTTGl2Q1laWmxvUGZ1X1BDcHd3UmtOUk5RNDVZOWlmUG9MWFMwRF9rRDctUVdTRktNMWN0cEtwZHI2WFlKQXR5MEE0MHJPaUhSaFE2UEJFYU1BVUluTUlsaHctMzJNZnE2cmhPaERXMjZMMHYwREhUa2V3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T15:38:15.641Z",
-      "pubDateText": "10 jam lalu",
+      "pubDate": "2026-11-11T15:13:46.084Z",
+      "pubDateText": "11 jam lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "Sinopsis Ramayana: Part 1, Awal Mula Konflik Rama dan Ravana",
       "link": "https://news.google.com/read/CBMivwFBVV95cUxNcnB4cWpjc1MyVWtScGF1TGN6VnBNVTNJWTNueEhTcGIzQU9FcVc3akhlQnQ4QVhEM1dLMGI1TlpNbnRiRXFwR2sxWllVdV9LSm9iTk9DSjNmR3pHSXpMemR5bTdiQnlWV21HNDdxV1o5Rk9sZEFfZmJUS1NxUlQxOWc2dHFiVGFoeEpEalZxdVB6TVNhelphaDJiNGF2cVVQa0tHNXNPcE90OVQwb3ZoaWRzRjVLUlVKVU1HY1R5UdIBxAFBVV95cUxNWHNzLVlHNG53bnpGRldveW5Oejl6UXhJb2FObHhKSXVuREtYSnBMajc4SDZNM1FCY2pqLVVxS0FLa1lHQjYzc0dCWnlQNFgxYjc4el95VUdOcTlSbzMyWVY0WVNnOVVlX1p1VnA2Y0pSOUFobHh4bzVvVU5WWWtwV0VQcmhxLWM3MjhvdnV6eWt4Wnhmb05OS0JCTjFabWxGdDROVnlHVkZPZEVYRUxWNjZwblhRb3pHMjFBZE41UjhEUGlf?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T05:38:15.641Z",
-      "pubDateText": "20 jam lalu",
+      "pubDate": "2026-11-11T05:13:46.084Z",
+      "pubDateText": "21 jam lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "No Na Akan Tampil di Coachella 2027, Jadi Girl Group Indonesia Pertama",
       "link": "https://news.google.com/read/CBMixwFBVV95cUxOVjlYN0U4ZGFTWEtGZWFrdXAyaGluVGwySHgxdUFhWkNCQ0JndjZYQkFOYjJ1M2JVT3hJaGhMUUxvS2otRTJwczFqdkRzektLTVY3UmZxTkJoSEVYNWhTZjU5dzFNYlA3aVZicXVEV0dFQWRsMjZwR3VuZ0dRZWJuYkZsMzRKRjNhVlZFTlctOXF4VGNHNFZqb0V3SXVxU2dtajdxR1YtTmNYdnlMTWU1UzQtNXZnU0xZakFjRjRHX29aZHFPNXo4?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T08:38:15.641Z",
-      "pubDateText": "17 jam lalu",
+      "pubDate": "2026-11-11T08:13:46.084Z",
+      "pubDateText": "18 jam lalu",
+      "category": "hiburan",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Ruben Onsu Buka Peluang Seret Dalang Demo ke Jalur Hukum",
+      "link": "https://news.google.com/read/CBMivAFBVV95cUxPWW1pNXUxY2paUGZpcWVyTlJVWGhTdi1KbHZ2U1ppTXhCT041UkEwZEhmLXRPODlUcUd1ZkYzM205YkRMZXlzT2NIMHdXSlJUeFNCSVlKTEFGRm1rdkhvb3pybUMwWXZVWDhuaVdzdWJDVXhOZUpRQ1J0eHI4WGtTdThLLWhBNHBJSF9rdzhtTWw1RmQzbGhTcWtVWnV4dHdQX090bk9zRERGMnhLSUx1VlcxaVBuY1I1SmdEN9IBwgFBVV95cUxQMmxzdnJGeFZ5R3lqVjl1Ym84S0xrLUc5ck1RTkx3RWRBa2hxQTFPOUs4N01FZTR5OUFxckxzVkdyckNzaGxnOUk4VHlmVVdGTTVsTXV4aERWZkhKYmN6VGdrVGhkTm40OE4wYlJPcjR0bEh2SmV3b3gyOWxkR19NSUppR1VjOUZhQnRQZ3FDZHh0dG5WV0FSN2tON3lNejBXSV9RMUM2cmJRYU40SzFDYm95UG40ZmtYSkNUVjU3TXpvUQ?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-09T02:13:46.084Z",
+      "pubDateText": "3 hari lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "Kim Kardashian Terapkan Manifesting, Ngaku Dapat dengan 55 Kualitas Idaman",
       "link": "https://news.google.com/read/CBMixwFBVV95cUxOdHJSNjVGUjFFaEJITkNKeFB5UEE3XzFBYV9LLVFBZWVadG0xRDF0OWxjOVkxazlKQlJ5S0ZiMERBS1I4dHhNQjhLMm5PRFJidUpXR2MxMUMxTm4wUExsOGVFdmtmMFVkTVhKdW0teDZlRjAtbEdyejV4NUpETWxXU21namF2Q05md01JcVNwNS00dDh5Sll2VEx0bVJRbWlUbnBzSjJvcnQ3TnBIVjdNMTlsTFVEWFB1NHhkTzVqLXFJTUltSWIw0gHMAUFVX3lxTE12RlUyQ1YtQTFtYUNDUktxajY5Q3lhaHFxYTRGNDJDUUpaRnpqeWRiTU0tdlF6WF9iRUJ1bGlLejgtNENYNXBPY0J1a2NhSHlqSlFxMnhRWGVjUVVvem1hdm9ZNmt1RHZxNWhKeFRCc0p1SVBiZWx3aVIycmt4aWRoXzVSS1ZpYnF4WlBjOUdSSWE0WTJhWlkxVDZScDVXbDEtV082NWJwX1dfR1p3OUhfek1FQ25xNTMycmdlQnFJSnFoNTAtMjNybUt6SA?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
+      "pubDate": "2026-11-11T12:13:46.084Z",
       "pubDateText": "14 jam lalu",
       "category": "hiburan",
       "source": "browser-scrape"
@@ -383,111 +391,103 @@
     {
       "title": "Gaya Tradisional Maia Estianty-Irwan Mussry Kondangan di Pura Mangkunegaran",
       "link": "https://news.google.com/read/CBMiwAFBVV95cUxOUFpzZFMzNWJ2aU5vR05jS2UxV0hFS3JUQ1BJN2RTaFVTbTR5bUJ1R3c0WGNqRXBkX3lTX0lUMjFWLUM2b0JmUndpQlNJcXUtN2ZvQ3BLSFdaeFhDV0hxdC1KQjBORHotNkJsVGp3RHZDMEgzcWdvY1NWQVRhYTRPNTByWkNBamNtLXNvbi03YTJCUnYyWHFvVnc3OV9fRjAwcDZ0cWNucGNJMVYwSHk4OEtPMVpvZ29ibkN1c0xiamfSAcYBQVVfeXFMUHRSTE1QSUlkZFRDdFllRmRTSG1tbW82d2hqeVhwMy1zRHQybjB4VmtXMmEwalZUNldNWDZkd0NhaDQtU1o5SzNKWE5nOWZvdjJySktNM1hkbmZBbmV3a1hWQTltQkJzejRpc2ZlaEpLVnZtNWNGckkxLTRqeXdJbUdSOHZkRnlUMks2czlRbm1kalA3YUxlaFpCSm1rYU1hc0Y3RmVnVEs5NEJ5RU9DcERHVlY2ajhRVzFvRXF5X0Jpem1RMlln?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T13:38:15.641Z",
-      "pubDateText": "12 jam lalu",
+      "pubDate": "2026-11-11T13:13:46.084Z",
+      "pubDateText": "13 jam lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "3 Panggung Batal, Dongker Gak Kapok Bersuara",
       "link": "https://news.google.com/read/CBMijgFBVV95cUxQRXVuTFl5S2t1cWhfN05PcEhleDVSRm1keEc3dzVxdDBjdVpnTld6VHFTcDZTLXlkVjVUMHNVWTNNU0t3M1N4elBKaHExcjduT19WZDJNSG94a2VSY1ZoVnNPNk9ULTdvbjV4dzdrWHJnLWNfZW9sdkluN3RPVUFVaVV3TXRuUUt5MUdiNV930gGTAUFVX3lxTE9OeDJKSnVlNXprd2Zwd0Q1N01vbXAxOER5SDlXM29BM016U2w1d3dMbkxFLUV3c3JtSDRuZlZMdWc1VlZybDdScXVIR0RKaVgxakF3REtrOEtiV1NSb2QzSW9JbnhpS3dVd2h5ckc3Qi1PMkN1VXMwb0xnRFh4YTJ3RFlhZ1JVVTVaNjlWRy1zWHBrRQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
-      "category": "hiburan",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Ruben Onsu Buka Peluang Seret Dalang Demo ke Jalur Hukum",
-      "link": "https://news.google.com/read/CBMivAFBVV95cUxPWW1pNXUxY2paUGZpcWVyTlJVWGhTdi1KbHZ2U1ppTXhCT041UkEwZEhmLXRPODlUcUd1ZkYzM205YkRMZXlzT2NIMHdXSlJUeFNCSVlKTEFGRm1rdkhvb3pybUMwWXZVWDhuaVdzdWJDVXhOZUpRQ1J0eHI4WGtTdThLLWhBNHBJSF9rdzhtTWw1RmQzbGhTcWtVWnV4dHdQX090bk9zRERGMnhLSUx1VlcxaVBuY1I1SmdEN9IBwgFBVV95cUxQMmxzdnJGeFZ5R3lqVjl1Ym84S0xrLUc5ck1RTkx3RWRBa2hxQTFPOUs4N01FZTR5OUFxckxzVkdyckNzaGxnOUk4VHlmVVdGTTVsTXV4aERWZkhKYmN6VGdrVGhkTm40OE4wYlJPcjR0bEh2SmV3b3gyOWxkR19NSUppR1VjOUZhQnRQZ3FDZHh0dG5WV0FSN2tON3lNejBXSV9RMUM2cmJRYU40SzFDYm95UG40ZmtYSkNUVjU3TXpvUQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-09T01:38:15.641Z",
-      "pubDateText": "3 hari lalu",
       "category": "hiburan",
       "source": "browser-scrape"
     },
     {
       "title": "Klasemen Kualifikasi Piala Asia U-17 usai Indonesia Hajar Filipina 3-0",
       "link": "https://news.google.com/read/CBMi0AFBVV95cUxQS1lWUXltckNoek9yUEstZTJQdDlTbFNkQ2loWFhjV1RQMnppbWdTY2VycDdUQ1U0UU5vYy1ORTRBSk5XdW0yRlNBUHE5TkFWRWhtUFJWbTlpLWdtUkt0NlR3VjFmUU5yaDhFdF9LVFlSLVRRTGZhT25tcHByc3FRT21UQVhXSzd4TU1pMUNRaUZlajFQR3dYZE1SMEM1NGh1M3l1VXNfbVpyYlVaakpUMVhjRHhLVlNnblRyYWZWS3hkZzFNLVBHbF9PTG9ZWm5C0gHWAUFVX3lxTE9hQUEwaVlpemNLTl9ta3dqSWxiQlIybkowSEUzbDJDSmVlQUpFMGtaMWUydFdGSU9aa3JiNXI2dUxsZ3JiNU9kNnZlWlhfY21Bclg2bkVsanZRSkI2M1ZNZVZ3TmVlRWFPamdyc3Z5eTZGTk9NU3dadFBJb1NwSUs3eVhROUxBejhPMFBIZGpGVHJDSjV0SV9KSjd5a2w3dUVmbTMxek1tNEd6dkFwV1dIZ2VhclhyZVRpd0VDTUhXR1RELWEwSDJZTWF2OUNNNXdqMlBIX3c?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
-      "pubDateText": "14 jam lalu",
+      "pubDate": "2026-11-11T11:13:46.084Z",
+      "pubDateText": "15 jam lalu",
       "category": "olahraga",
       "source": "browser-scrape"
     },
     {
       "title": "John Herdman Kepincut Taisei Marukawa dan Alta Ballah",
       "link": "https://news.google.com/read/CBMisgFBVV95cUxPenFYaGVsM0F5ejBrR2xyQUxFb21aNkdJWmIxOW5lUEZ3dDJ1SVNmNXN1clVpVlBDS0ExOElscm84QmtqcEM4MG5FTzFRYV9NeVZhMG1ycGpPNTBQVF82UDVFRldkR2hub1h0MzNNZXJ1bGU1RlNOZGhHYWVYZTJyNVJLWDBodHYwYi14cWVqOEpyeGtsY21CTW15emhlYVBRWFNPNVU0eENJdzZMUUpFSFZn0gG3AUFVX3lxTE5WWTVCNTltMkV3d1E0T0pTOHAtVHBhQUxKclVTU2lhaFlwRjZLTWdDMFFwSktZdWlISGVUdTdnVkNhLWNDMENBcTBra1cyM2QyMWNoeVlvbW85QVdRSUxSQ2ppM3dMcWEyQjczRDlFanFOcXRBODZGLVRCbmJoRDdrbDBCVEZibEtFaFRsRG5WbF9VZmRWWUtmc2FhdTBYZXRnR2VuLVlmZmdyYnItdzVCS1BwMWpycw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T08:38:15.641Z",
-      "pubDateText": "17 jam lalu",
+      "pubDate": "2026-11-11T08:13:46.084Z",
+      "pubDateText": "18 jam lalu",
       "category": "olahraga",
       "source": "browser-scrape"
     },
     {
-      "title": "Setelah 6 Bulan, Langkah Manchester United Membuka Pintu Kembalinya Guardiola ke Dunia Kepelatihan",
-      "link": "https://news.google.com/read/CBMi4gFBVV95cUxOQXM0WUVVRmw2NVlldU1XazJBcGVzNGt0VG1rcFFHelBwRUZ2NC1NNzl2ZVZudFNRWERzWEtoU09MMDV1a3dPYTRuU1ZhTXZvMnN3enQwZ243UUZCblpfdmFHN3N1VDhkSzczeVB0bE00UTBqRkd4Rkt0RG1tYi1TMjZKUXZyU0RybnZieWxxZmxzWlhYSy1qM2VaZDhPVC01OTFKME9NVkdBVkVNUU51bWlNUzN5U1B4Z3VhSDNlc2Nib01jSmJNQVAzUUZmaW1pZl9jdWtsS09tbGJQZ1pQcV9B?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T21:38:15.641Z",
+      "title": "“Betapa tidak hormatnya itu?” Peter Schmeichel geram kepada Manchester United atas perlakuannya terhadap Michael Carrick, sementara Mauricio Pochettino semakin dekat",
+      "link": "https://news.google.com/read/CBMitwJBVV95cUxOT0lPdFRGY2dUQWlmS1ptNGN4Y0pMSlJQVHRPTk5NYUFVeWprTVhSejNfLWFvZUFBdjdrZWpwYUdXTThjWkRpclRKR1B1dVZNaFJVbDZNWXJVQzN6NnZtRC1iQlJVNFJPc01DQzFRMlI4RGxoeFoxUm1WaklJUDBHZnRhYUpZSDVfMnhLWEVuVzJVYkhsTjZYaWlXZzdNdy1XZXBLeWNZTXhXay1XN1pMbmVwWDdidFZqSUk3ZUpCTnROQ2xzTzc3cFpUQXRKeHdFRmtaRnF6TFRsSjF4NmxwdUtsLVlPV2ZTV01VdnpMTkFGVnRuVE9iRkx0THVPYWJYcUU2ZEw1ZGhfVGt4WlhUWUthWmFhbjF3bzJQOTJneXVta2Y2ajc3MFJEbVlMYnZwblVNdjg1VQ?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T22:13:46.084Z",
       "pubDateText": "4 jam lalu",
       "category": "olahraga",
       "source": "browser-scrape"
     },
     {
-      "title": "Premier League mengakui kesalahan besar VAR yang merugikan Liverpool saat melawan Arsenal",
-      "link": "https://news.google.com/read/CBMi1wFBVV95cUxNckEzUTdjTnFFOUVwazJqQ2I1OVd1akF0VGY1RVcyaFNhRUpxYmFUdm1Mc0xmMDc4ckFMbE9PVDNWS3NaazBqTXJFbXk1TzQ1WUFHUFFrdlhEdzNxaDU3aUxteXdUX2VhNC01THhkajhZelcxTUNBeHdRelA4WmNjQk1ta0ZVOTg1NlNQaE9aR25zZkp3aEVISTAtQkpOTHVaeUM3cnFUelUxRVhUcXdGUkhucUZWWjVRaEc2Und4RmM0VkRHMFIxNl8tN1JyWFhNS3g0MlNqOA?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T13:38:15.641Z",
-      "pubDateText": "12 jam lalu",
-      "category": "olahraga",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Lorenzo Sebut Rossi Tak Masuk Perdebatan GOAT Jika Marquez Juara Dunia Lagi",
-      "link": "https://news.google.com/read/CBMiwwFBVV95cUxNaS0zN29JdlVlUlFfeGNNLUJyMlRua3B2cHVzZ2IxWlJlV1ptXzhqdGdIY0lKZDlRTHBrTmNJeVhCME1uNFB3RFlxOVQxTnVvaWtCbmpBaTVSOWo0eGxwV1YzeTNVME1aOWlXNWZYdDFEWks2QTVCeWc2anlPNDZGLTl2MUFzUndiMFdvLU9sNGZJVkNpcFdvQzI5LVo4WWZrNmtXVVBMNmVXem1TaWU5WWdHamxSakk5bmFtOEJOVm5KTXM?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T12:38:15.641Z",
-      "pubDateText": "13 jam lalu",
-      "category": "olahraga",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Lebih terisolasi dan kehilangan lingkaran terdekatnya: Cerita di balik penderitaan Mbappe di pemusatan latihan timnas Prancis",
-      "link": "https://news.google.com/read/CBMihgJBVV95cUxOQlZoNzNubjVkb3JWNXNKOEVlVjNmTWVydHBmV0N5dnMxVTRETFFmS1FqeDRvcjRQT3FKakw3alA3RFp5RmR1cVNCTmtWM1JLd1M0NzRUUGpLa1ZVdWZ2aUR5NjRKOFFyZm83NDZ5RXNFYXZYR1JKQS1SS2pUNWJPMWpjdk9oX0JDZFc4VkY1d04tSVp4OTY5Sl83R0U5UnRESzNpZF9uZjRsRS1qdW5vNnlhd1A4RHBwN3JWOUlfeDA3bXMzQXNrX0l4eXlwTmtXVjAzeHpnRTRSZGpxMXlOaHFDTHgxOUhoZy1hQkN1UmtYZExYRjFlMXVJTG1Tc1Q3THhlMjB3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
-      "pubDateText": "2 hari lalu",
-      "category": "olahraga",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Pemain pinjaman Liverpool Ronald Araujo memperingatkan Uruguay bahwa Argentina tetap menjadi “kekuatan besar” meski kehilangan Lionel Messi, “pemain terbaik di dunia”, yang pensiun dari tim nasional",
-      "link": "https://news.google.com/read/CBMi4AJBVV95cUxQTXpIWXBQSFFPa3d5UHcya1FGMk53ZEdrNjJ3VXhlVEF2RW9BVHIxa0EyOGpPOW9NcHNtSnRFcGdneDlIdUxqa3lTdGxqd1dXbmc3blQ0TzBOcndfM3IwaWpUTmxoUzJMTExjWktlei1SeFZIMHJ5eF9zQmFBbUdJYk9JWkxoSS1XLW5yT3F0WVFCcEF5bUMxUEJoS0ZXOUFHRk9kRUEzN2RLZWk1dWVhMmFzSWw2YjJ1NGY3WG1fOGtYN1FMeERpTUZHZ1ZqRjNYUXduNEhFTVVSeTM1QWFHSnE4Wjhkd1VSRDhPcVZncHBsejdRZmNidlZoa0NySlZCZkZaVnFqMzNTTkQzUi15ZDkxZ1YzOEFHM2xSSWFuTkwwOWFPaE5obzQ4ZnBOTmNLR3Y3WFNQWlU0blIzU3JNaUlyVURCZzBKeWV0ZGttendsXzh2UHVHTXl2elV6SWd3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
-      "pubDateText": "2 hari lalu",
-      "category": "olahraga",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Anggota Exco Mundur Tambah 2 Orang, Dorongan KLB FFI Semakin Kencang",
-      "link": "https://news.google.com/read/CBMixAFBVV95cUxNdm9NeHBYVUlESEdjaWNmc0VncWhyOHIxOFFWYlhlamIyNnRhS05LaGh5TWpCRkF1TW5YWDlYdHNpZXl1U0h2dldHbmtURTVxckJrV3kxS1loUlE2dllkbkVUczh0U1JNOGR4eXFNRzF1eS1YT0VsSjAyd0VudWduY2lTTjRWX2RJMTVQa1RXd0V2NEoxVnl3OEJhRy04eHpqVFRuWjNKY09CQkpQdXBEdGxVenVhRmtnMjRiWldCeFN0LWdy0gHKAUFVX3lxTE9IejZuUnAzdWxjbG5sLVpxVnhJU2p5UmJVNk83Y2hyS2lOaGhlQ1FJX2VNLWhTQkRraGZEV0NmenZQOGNlTXZCN3RPdUxQc1pQT2drX1NBal9xd2lvZDBCY0JTV3AwaEdDbXY0cWNfcFQyX1dzdUI3enhUdzBSSHlZR0QwTjhQT191LUN4aUJVVi1XTUJYUXI5N3lhcElqOWhsVlVZYU1rakJLUmpHYUxFaXNQaEc3OVR1MHNuaUFCa1JCZjJ3YlhzX3c?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T19:38:15.641Z",
-      "pubDateText": "6 jam lalu",
-      "category": "olahraga",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Daftar 4 Wakil Indonesia di Babak 16 Besar Kumamoto Masters 2026",
-      "link": "https://news.google.com/read/CBMiyAFBVV95cUxQUWY1RWp4Z1RvYW81dm8xQ2xxRHZCUHcxYlpOSVNKWDRlbFlNMVFEWEtESkpOZ0lhSmpJdExOWXIzNGFfS2NQRlM2TFk5VVJEVzJMRWNNSVZZaExhS2Rmb043eWl4R3dETzBFbEJBeTdFRk1ETjZZb2tLaFJ5T0pYbTE3VzJwUE93S0lxM3NrQWNSVl9LV196c3ppMXZHMFNhdDhGUFVGX0VPdHQ1OVViZ0VBZ1NOVTA0VlJvVWg5dF95ZDVZUk5OdNIBzgFBVV95cUxPeUZvZnVNeEJCUDNyazN3SUdMUmdTbTl1QkN3U3J0YU90OTZUdFNPc3d4UlNiQ3BodmRVUHdBSnJQZkNOX0FPQUJ6MDEyMU5DaVdiSHpTNEhraEVnQi1SdlJET2E5R2RSWWVLZ01iZ3pEX2xQdGFmNlF1ZlB6UGRTN0xVTTVtaU5mZ2lzSXdzN3ZwcnFKcDNtZ0NIRjRyWVRMN29uQjFid2VJMHBjWFFXalVJOG9WelZERkpTdEw3NEdnZEtxMXZBQUhseU5uZw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T12:38:15.641Z",
-      "pubDateText": "13 jam lalu",
+      "title": "Era Baru Argentina Dimulai, Nico Paz Ingat Pesan Lionel Messi",
+      "link": "https://news.google.com/read/CBMirgFBVV95cUxPRnAtWjRIUTdjM01oYVcwOVc2UFpLM21mSHl4QXUzMUloaWk2M2JUWlEwQ2tSOUkwbEU1MlFDNVBJalVSQ205OW4tWTUzWU5VRzl5UktFVC04ZzdEUENLQTE2WEdwdDV5WlBLem1aZ3ZzMUFRVlFkQ0R3RmZ4WExmRUNRQWMzVnE4TEJuczRhcHlKczQ0S3BXMGt0YzVWSTBTQndTal9mOF91czB2OEE?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T02:13:46.084Z",
+      "pubDateText": "",
       "category": "olahraga",
       "source": "browser-scrape"
     },
     {
       "title": "Jadwal Timnas Indonesia U-20 Lawan Yordania dan Amerika Serikat",
       "link": "https://news.google.com/read/CBMixwFBVV95cUxOamQ4bG5oWXpJaTIzVVlVbUI2TkNoMzY0R0JTNnhSakduQkVwWFVWYXRGRW9jUGtoX0VUMFJxdWozRExlb0p3MWFaNDVBUi1Nc1ZaSUY4N1B6Tk04dmNzVktDTHI4UC1OV2ZGS1BiUGtQQU5ucVUyZTlWR1AtaFFUVUk3MnFEUjdEcHBQUUNsWGExWXBiTDloeHlBSkJON0dmLWNzUzNXQlBpRklXa05FXzBPaXotN0VhejdnRWIzRklxNFo2LVZr0gHMAUFVX3lxTE9uODV1SnZtbE82X0pjeWdiTmF0aEc3ZzdxdHdodTJGT01kRUdkMDBOcHd5WDFubWxtcV9VOHZoLWphcjEzd19rSkIxd21XaGNMTS1oN3dscUwydU5PVkQ2Tk54RnZNWWpPTVJidnhzTnZndThxdXpTV2pmVzNHM0F0T0x1a05kN3REa3ZQM1NESjVqR2xxaTNFdDJWbVA2VnNEYmJPLU1wd3lkaTBsTXUxaGpLNlVsbnQ3U2I1NlVMVzF4OVhjLUhRNU0zUw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
+      "category": "olahraga",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Lorenzo Sebut Rossi Tak Masuk Perdebatan GOAT Jika Marquez Juara Dunia Lagi",
+      "link": "https://news.google.com/read/CBMiwwFBVV95cUxNaS0zN29JdlVlUlFfeGNNLUJyMlRua3B2cHVzZ2IxWlJlV1ptXzhqdGdIY0lKZDlRTHBrTmNJeVhCME1uNFB3RFlxOVQxTnVvaWtCbmpBaTVSOWo0eGxwV1YzeTNVME1aOWlXNWZYdDFEWks2QTVCeWc2anlPNDZGLTl2MUFzUndiMFdvLU9sNGZJVkNpcFdvQzI5LVo4WWZrNmtXVVBMNmVXem1TaWU5WWdHamxSakk5bmFtOEJOVm5KTXM?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T12:13:46.084Z",
+      "pubDateText": "14 jam lalu",
+      "category": "olahraga",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Lebih terisolasi dan kehilangan lingkaran terdekatnya: Cerita di balik penderitaan Mbappe di pemusatan latihan timnas Prancis",
+      "link": "https://news.google.com/read/CBMihgJBVV95cUxOQlZoNzNubjVkb3JWNXNKOEVlVjNmTWVydHBmV0N5dnMxVTRETFFmS1FqeDRvcjRQT3FKakw3alA3RFp5RmR1cVNCTmtWM1JLd1M0NzRUUGpLa1ZVdWZ2aUR5NjRKOFFyZm83NDZ5RXNFYXZYR1JKQS1SS2pUNWJPMWpjdk9oX0JDZFc4VkY1d04tSVp4OTY5Sl83R0U5UnRESzNpZF9uZjRsRS1qdW5vNnlhd1A4RHBwN3JWOUlfeDA3bXMzQXNrX0l4eXlwTmtXVjAzeHpnRTRSZGpxMXlOaHFDTHgxOUhoZy1hQkN1UmtYZExYRjFlMXVJTG1Tc1Q3THhlMjB3?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-10T02:13:46.084Z",
+      "pubDateText": "2 hari lalu",
+      "category": "olahraga",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Peringatan Arteta menjadi kenyataan: Zubimendi di hadapan pertanyaan Real dan Atletico",
+      "link": "https://news.google.com/read/CBMi0gFBVV95cUxNdzJMbm1FZnNOYmhRTzA5dU1jMHgzYXVkaFZKMlRRV28tQ3hrdGNRVVZyVGVWdzFaMkJVY3h2dzJ1X1hhRVlKYm1OcE44WU0tZGNfRFBKWERIeE5yY2F5OE1fTzZCVHc0a21abTREeG9QdC1kU1NuZTRGTUpCVTQyN0dpVVpvblZNN1ZxRXlVS0h3TjhmUDVxeDliQUh5TE1vcEp3dWVMZVJ2UTh3Ui04RmNXTXdXVjFVblZSYUVybEg1YWcyN3U3YUFReXBfLUZZX2c?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-10T02:13:46.084Z",
+      "pubDateText": "2 hari lalu",
+      "category": "olahraga",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "11 Tahun Berlalu, Rossi Masih Dendam pada Marc Marquez",
+      "link": "https://news.google.com/read/CBMiugFBVV95cUxNcGlZcXZGaTNlbWxpTVVqSHVuR3ZPWW1xQ05tLTM0VGpFaFNkT2JyTXQ5VFNCbUNkekExYk1mdVdtMWVhZ084U3FBMURHZUJfX2ZWYlZDcFRQdTFtdVFtcDE1TjFSWE9nXzh0eGdaa1p0UjFqc0ZjSktreERmRjRTX29JU1Q4c01kQm9fTmFxV1c2ZTZPU1I5UWNSWE10OXdkTjQ3eEhOcDJOV05VQlF3ekhybThXcTV2QnfSAb8BQVVfeXFMUC1XRmV6SmF4dFhlRXF3Z2lNa2hncXF1MGo2d1VmVUJNeGxMdFhlT0tJMGhaMzdlN0tsX01za21CV2xKdzBoRFhtS3dmeTNSbGFzYnlTeDU2YTFURVh1RE1HNm5iOGpJRjRsUzg4T3BZU01Wc180UnhDYVNUamZIUHVrbEtILWNRY1RNZ0UyZGMxUENhdl83cUJiN25FV2RleEpURVJHSWU0SEhISnFzdnlmaUNCTVVyNmZCdlBhdEk?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-10T02:13:46.084Z",
+      "pubDateText": "2 hari lalu",
+      "category": "olahraga",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Premier League: Liverpool Harusnya Dapat Penalti Saat Lawan Arsenal",
+      "link": "https://news.google.com/read/CBMiwAFBVV95cUxOQU9DUFl4cnBEeUZXYWhoM3dBa2U4S2JsS1d2NmZpa3BJVHRfeExocm9YbDAwaEJkS2h1SFphaFJtRGNCUklfSkozUGF4cGR1azk0M0RqYnh0eXFhUE1MTTRMaTVCdmNGT3VUZ3ZSU2xJeGM4TDZpaUFsNEJvRG1jbWUzNmlOTlpBRUs1U3k2bFYxVFpVUFhUamxkVnA0bE9rXy1ReFhKdjhOYjA4ZUdiYlJjT0RtQUtXSWRVUlVJTlLSAcYBQVVfeXFMT3ZXV0dSbmFEUDJVckJxd2xfVmJXdnJiVFUyaHJkQUpCNGhPeHV5ZVlfUTFRa253UEhZTmFkYmhFM19wUldTWkZUVTFseGlWVndPSXU1dkVjempTQ0pkLTVfbWhpUTdDT3pfX29JekVyZ1ozTW4zUFhnX1dLRmtBV3o4djBjMzhxMFNENGJkNE4wRFJ5YmxZRGs2dkl3anB4Tmp3NDdsaWVzcXBzSGJxZ25lNmdXQkRrbWFRVWFCelZwQzdGNmtn?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
+      "pubDateText": "1 jam lalu",
       "category": "olahraga",
       "source": "browser-scrape"
     },
     {
       "title": "Ada Hujan Meteor Taurid Utara 11-12 November! Begini Cara Melihatnya",
       "link": "https://news.google.com/read/CBMitAFBVV95cUxORHhMT0RtRi0tNXdWOU9lcXhPaGZHdjJ1bS1nbHVQODlWWDhndVFkZUFpN0xhb1BiWGcydS11MzZFNTR1YlVzU3BlWW9Yd2JlYkNQX3ZnT05oRnN0bzFWV3BiYXZnQVhJd3pUWm5kTjlZNWxWUzRsQUpWaHJ0WFNBdl93VnZqSlFCM3d0QnFHU1BSS3MtT3dIbWp0TGp5YzZpdVBhNFdmd1NLbVBLSG9OaklLQUfSAboBQVVfeXFMTmxGR3cwVTNobko1SUlXQ2FRc2N2YVBHZUZtaXo0alFsdmlpLXduRExMZWtDQmt6NWZuT0g1SDk2WTlTSGdxVmtNNk04WWcxYTdlWlFqQ1lGNUgyZ19fN1J2N25aVDBLaXZlSXJyR1A3ejVsQ1REV1VsQ0Q2TFNYakZtZC14bVJoTmszTGpnV3BLWUJRWnFKX3U0VC10RXU4eU9BUVRjcjRRc2pZZmN4VXRPU3ZrR2ZndlRR?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T10:38:15.641Z",
+      "pubDate": "2026-11-11T11:13:46.084Z",
       "pubDateText": "15 jam lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -495,7 +495,7 @@
     {
       "title": "Observatorium Bosscha makin rabun, terkepung polusi cahaya Bandung",
       "link": "https://news.google.com/read/CBMiogFBVV95cUxQZEtYRDhwX3NDU1psWmFwal9pSnNub2ZYTF81b2ZIcFRxd2VSM1U2WHp6cS1qdlhDak5vcHB5eGhOZ1kwRXktVUdtaGU5c0tvSmlTbF92X3ZIZXR0cGlHUjh2S0VZQU9fYlFaN216STBzMnJfaXRHQWtQeTdocV9GTkxSUHdTQlRwOHJyZnlJNHNLcGZ3SkRSVjhRSG5udnBCcFE?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T08:38:15.641Z",
+      "pubDate": "2026-11-11T09:13:46.084Z",
       "pubDateText": "17 jam lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -503,7 +503,7 @@
     {
       "title": "Kotoran Penguin Percepat Pencairan Salju Antarktika, Picu Tumbuhnya Alga",
       "link": "https://news.google.com/read/CBMirwFBVV95cUxOcmRvUFljU1JQSzJ6eC1aRE5lWVZFRzFuUnZmV2VrcEV2ZlcyNGxJTEo3NVpxYW81cTZWN3hKS1I1R3pYQjJaVVpCWUNCLW45WExCaFg2YWRiaXhzaGZhVHVOekt3SmtvSGt6c1lxQm45a0txbm5tRk1qQXBreHduZjIwal92ZlJfV3RlQnlIQTVUWjUwQVpybEJKUDBFNUVSWFJ4aERJQW16VEowR3hr?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T05:38:15.641Z",
+      "pubDate": "2026-11-11T06:13:46.084Z",
       "pubDateText": "20 jam lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -511,7 +511,7 @@
     {
       "title": "Robot Curiosity NASA Lakukan Pengisian Daya dan Uji Efisiensi Energi di Mars",
       "link": "https://news.google.com/read/CBMivAFBVV95cUxOVzNuS3QtT0drMlJGaVB5eGJ2LTIzdEdQY1hpZzJlM19Md21ESl9qNlhHdU5wWDFYalhkUlE2bkE1c2Vja19Dd1FVelg3OTh3S0xQRjRrdS1UeS02Rm5uX0d2WTJNQjdoOXQ5S1hQQTFNXzM5LWtwRG5rMThGQzZDYUt3aTBIVWQwazBnLVVTZmtLNGdmb3NlanZkU2ZhVEh1Vnp2LThSYzJZeVRHYnp4OHRDLWRfY1ExTTFMVg?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -519,23 +519,23 @@
     {
       "title": "Buaya Sudah Jadi Predator Puncak Sejak Zaman Kuno Ini, Ada Buktinya di Kolombia",
       "link": "https://news.google.com/read/CBMiwwFBVV95cUxPam9iNzdiUmVTRExQUVlzTHlPOVFqeW1IMWpxaVpNNFdhUl82RFBVaTY2WFJwM2ZPWTdmdHBkbjJ0R28yU1daYVMwc0V3Ym9xZk5USHF4aUJOZjh2VmZySWRrM3FwMWt0OVZTUnI3NDhrbjllZXJrNWFxanlGOWlXeXVXUTVEbHgtdklzWExNZUM1QUZ4VVVRR3MxLTlyZXR4c29jVHNGbVRGaXdQYkV1eW4xMkZFVTBSMDNxakpOV05GQlXSAcgBQVVfeXFMT0ZBNXFTeDk1X3R1MWJXUl9vRU0wYnZnTjJueVVUVGdManRySHpsMDlSeG05NVpVemxybTdwVEExemxQdWZLb24tcGtBaWNjZlZNYnBSQ2dEdWhvWmxwX1lVYjh5cUpDdGpUNHVjem8xZlJOdkJwUDY0b1BSN05ZcGs3MXNLZnhKdDRjZzB1Z3A5OTF1ZjJzOXhQd19ndE1zSGVyQ09vaEVxNEMtdTNEaFJVQmJoSm5TcGJ3QzdoRHcxdnFrRUJVMFM?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
     },
     {
-      "title": "Peluang Adanya Kehidupan di Mars Semakin Besar",
-      "link": "https://news.google.com/read/CBMiggFBVV95cUxOTWxZcXhTWnZSTlc4SEZINzdkUUJYaFloN1BWMDFMRG5JUXlObE45cmdpSHp0UGdrUWlHd0FCV0wxYzI4X2EwU2NlZlhFWEFFTEx3Q2p0azRBcFBhb2ZGd0xXNzZqamw2Y3JncEJRVnk3cnk1MVYwY2FtVVRBeUNhTEVn?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
-      "pubDateText": "2 hari lalu",
+      "title": "Aktivitas Vulkanik Mars Belum Sepenuhnya Mati",
+      "link": "https://news.google.com/read/CBMiigFBVV95cUxNWlJaRkY3cnBQOVo1UDZxcVNGemVRaWlhYmZUdXpfc3d5cGZjSnlHQWp2R3FLVkJiTWd4NmkyQ04tUl9UaXBkalhOTlRKaXhVYUkwQWZmbGVBc3VXaE5rQ2xUZ2RTcExMQzI2SHZyQjViRVltS0NkT2ZTVnk1elBjT0xldzUxR0pwRFHSAY8BQVVfeXFMTkxGeDJ6WkVaWWhPUlJnUjkxNVA4bFNDdHUzVHZsbFRvRF9XTExUWkpvX0czNWM0MS0xandZdHZHM2Z2cUpkcTIyVWFlM1ZpSndfV0VheEh6NjQzVFRLNTZFUlFJcldkX2FQV3ZTVENGUkhnbFk2clZGX3g1SXV6TGpNNnVFMk1rYlV1Y2ZLY1E?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-09T02:13:46.084Z",
+      "pubDateText": "3 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
     },
     {
       "title": "Satelit NASA Seberat 1,4 Ton Jatuh di Sumatera, Apa Penyebabnya?",
       "link": "https://news.google.com/read/CBMikAFBVV95cUxQY3FqbWh0dS03bm84TnlYdFlxSjRKVDVFR0ZscDBkcWUzUlBrejB2b3lvOHFndEpEa3hYVkJSeE4xNHpuQmdvTXBUUGU5ZFZ4RlU5NkFBZHBZMXJxYTY2UE5GT2VBdlBsbnJDZGl0Tm91ZVZIWDVFSDBOeTdvMGdmLXBscGNvUlRYd0hQMm4xai3SAZABQVVfeXFMTVU2dU9ZYmFYM2FCM2JCNnBmaFRRRHU5dC1qVUcwZEZFSFhTdDBPblJyNHAxdTJLYnZYVVlGZG1Ic3lLTXk3U1NPVTFtTm9XUkJqcjljQ3JBaC1VMFphZ2NhcDhoVjZKeE56VHBGSlhhcDZvTGVLd284UnZsRzdwbEpUNmt3cDZpZUJlM1hRYi1m?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-05T01:38:15.641Z",
+      "pubDate": "2026-11-05T02:13:46.084Z",
       "pubDateText": "7 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -543,7 +543,7 @@
     {
       "title": "Penemuan Fosil Infernogallus jamesi, Dinosaurus Ayam Neraka",
       "link": "https://news.google.com/read/CBMingFBVV95cUxNWWxraXBSUVpBNmd3eHVGekVFS2hWSVRKT0dGVFdLaGYtOEtROEJpSm1SS0tGZkNaNnZyOGplQXRfNzktMkxIakJDSzYtNUVYMEg1RDRlb19pWFRGTGo2dVZFU2J5RjhpMmxqMC1sV3NiWFRUbVlwX3Qtcy1CcnJHYVI1dWp4bmxyalY5UUJnZmNoNldZdXZsbVFRZ2ZUZw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -551,7 +551,7 @@
     {
       "title": "Relawan NASA Tuntaskan Simulasi Kehidupan di Mars Selama 378 Hari",
       "link": "https://news.google.com/read/CBMingFBVV95cUxOT2FnNkRNdk53UnFYdzUzWkRwSjdaNkwyQk96LXZiZDRLdUFtWU9TUEdtb3h0ZUMyb1pyc3Vacll1ZVUzRHRNQUFnaFk1SU92VTgyQkZhWWd1Q0pXd3lFMFhKNGVWVjRudVFUOEpFTUVUQ0x4Ti01Umtqc0RBb1hhUDIwVXZ4ZnhlRG9wM1pzSVUzNTJQbTRDeEhnZ1hUUQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -559,7 +559,7 @@
     {
       "title": "Peneliti NASA Temukan Petunjuk Mineral 'Rubi' di Permukaan Mars",
       "link": "https://news.google.com/read/CBMiqAFBVV95cUxNVDdVaWwyV082dTJWSEJweGlxa0UzWGE4aUxOR1lnYmdyeDVGLW1ya016RWp5aUZOMV9ZOTRjaWtoTURobTdIaGxKWm9UN2g1LUd4T2ZKaVhYdzhhUUxIejUxTDI5STJwX2dpc0U1dW5sZ2FCTy1FZ1JKRFlfMi04WEJNazV3ZlhJS1U4LW1HeG5pd2YtZko3V2pSX1RWVmRfNjk5U0gwLVk?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "sains",
       "source": "browser-scrape"
@@ -567,47 +567,47 @@
     {
       "title": "Jangan Disepelekan, 4 Perubahan Tubuh Ini Bisa Jadi Gejala Kanker",
       "link": "https://news.google.com/read/CBMirwFBVV95cUxOdTUzWlAwTU4wVHVvWGZnSlRzTnZJaDc0UXVtQWtDRHRNa2R4LVo4cUVFcDQ4MjhJQ0c0S19mdGMtWVJnX3QwdUppNkZuTnprRjRCdzJDUnppSEdHTVVkYXhZVldaVU1yZjJKanl1c19fSEZqdVMzOGg5UEdrcE5Vcm1uZVV2X08td1NHY0h0dnRIRDNvUXBHZWN0TDByNXBPaDNfWEZjY3Bsb3FYNWVV?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T06:38:15.641Z",
-      "pubDateText": "19 jam lalu",
+      "pubDate": "2026-11-11T06:13:46.084Z",
+      "pubDateText": "20 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
     },
     {
       "title": "Kenalkan Alat Sensor Masa Depan, Irkham, PhD., Kembangkan Teknologi Deteksi Penyakit Berbasis CRISPR",
       "link": "https://news.google.com/read/CBMiyAFBVV95cUxNOWIwbkE5bnd1Sms5WEFzY1BER2k3dEg0WHE3a1ZVSERDbHpybDFHbndsQmZhWVI5aktnbjZzekU2dUM5REUxRjhoQU5ad08tdzBCRHhCUlNGZmlzbEwzRk1PanhzZUp0M3lpR2cyTHE1TFdBODJCeEFfTlJEOHBGeGpHSWdmLVVTSlQ2Z3FRTGxLY1dqZVc0WGtrX0hpdy1oNzBlVkdGZkxIZVNZbDY0a3hRak01WXVrVWR1Tm9aRHZUUHF1b2RHeg?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T17:38:15.641Z",
-      "pubDateText": "8 jam lalu",
+      "pubDate": "2026-11-11T17:13:46.084Z",
+      "pubDateText": "9 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
     },
     {
       "title": "6 Manfaat Makan Nanas, Bantu Jaga Kesehatan Mata hingga Jantung",
       "link": "https://news.google.com/read/CBMiqgFBVV95cUxPbjN5NXRVYy02RE8tNTFGV3J6Vk1pZDduVXNlODI3aDYzNTFhY0I2aVUxdzZUektXSTJSLVR5d3htaEhVNFVIeFlzcnU0R3pqVHhYUTB6VmNYWjY4ZnJlYlBuX2J0VUxxblVmVENFMlE3QXpxUWJScUtPNE5oLUhaQmZ0RzNla005RGpDQ0hqNE9zMHhHZ3ZmRW1XRTJfUk81cjhNM1NpR2hJQdIBrwFBVV95cUxOdDRlT1NRVmtlcWk4RG43RGRZS2kwbmF6UXNNT0s4VnprNzZBWEVHb2Q5bjhPN1NXZC10dlZPVHpmTFJvNTBOYllud01GMjJKbjN6cVlvNm1mWGNSdktVdy0zRFRVa1Zaa1V0a0d6bXlrQ3JpTHJJdDNCM05WSmxQSzk3RWJTMWNzX3JUZVM2TWE0RFJrV0dENjUtazNJMWtsRjV1N1ZmaUtZMnpaaGVv?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T23:38:15.641Z",
-      "pubDateText": "2 jam lalu",
-      "category": "kesehatan",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Nutrisi Penting untuk Pria agar Kualitas Sperma Terjaga",
-      "link": "https://news.google.com/read/CBMivwFBVV95cUxOMHZGSTdKa2tYei10ZmJZdU8tc2dUUFhWZ2l4aTlzellNZExpRjZKUWVKeWtGR01vOXRmeFlld1U2Q2JMNnF1SHZWQUNTSGUyWFF5RkVlU0x1Q1ZJWFZfZW15X1h6M2cxSjB5SC0zR05TbDBoUTdKUjF0QWNxdVdWWWY4c3BPcFUyQzVpRVhFbFlucUV4NU9WVzEzakdHeFBVM0VuNTVScUZzNDZULURRS1VEdWR4N0U4NDd0cWpmUQ?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T22:38:15.641Z",
+      "pubDate": "2026-11-11T23:13:46.084Z",
       "pubDateText": "3 jam lalu",
-      "category": "kesehatan",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Suka Makan Kacang Tanah? Studi Temukan Manfaatnya untuk Otak",
-      "link": "https://news.google.com/read/CBMiwgFBVV95cUxQc1YwOXhqdEdZTVJ4bmFjSlFacjQ1TG90Z0w0bjQyazI2ZTBiSUV3TlVrZklKZzg1a3Zpb0sxVUVMSnRvc2xEV0Y2NEItM19fTXVtWEZtVFZ4MXI5T1F3V3FuTTE2ZGxYOGtfek8xc0RibnczaUhzclhURi14T2hHQnFvN1VrZVJqb1hLOGJmY1J4Xzg3blNYeHJ4VGNpN0taVGZJbTU3ejNyQjB5TU5KTFo1b21vT3lVMlZLbjBsSW5mQdIBxwFBVV95cUxOWlFEVkJ6NzRWdXZqVW1TUU56bzAzaTdJSGpDNGdOUWdhaTFKZm84WDU2TWxYQzFkRk13YmoxQWtiOFd3NW1jS09NNmtHeVhQODRhaUlKTzBNS2RxUWxMT0dxY0JtTHJRY1pZOHZHTEphcHZCUkFRUk96RlNfYWlmTENONDVzaWdrei1ua0V5VEQxTTk2c0tyTEU1Y0Vhc1l6WXRYb1VsX3IxRUNrQTJUXzBFSkQ1cVY0NHkwUUtsUnNZeGpSSFBN?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T00:38:15.641Z",
-      "pubDateText": "1 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
     },
     {
       "title": "Hari Pneumonia Sedunia 2026, Layanan Kesehatan Maju dan Mudah Diakses",
       "link": "https://news.google.com/read/CBMi0AFBVV95cUxOXzJDQm5NZ2xEYlJwalZ4Q19tNzRWeUdJQ2ZYZ1dSRWF2N3M2RmF0ZFdDMVQ1cXBVWTUzQXFndzQ3WmJpbHRHVGdLUF85NlRpamlfS3JlLU9XYnRaaUNvNEF1T3Y2dHZtSnc0UmlkZy1PamlKRUdwOUp4ekNta0tjZlZ6MmZJWW5faWlVTFFFWDdtNnAyT0xwMzJ3bWU0V3d6ZllObVEwdTNwZWRvcFpCbjdGcXp3SEZuYzM4ZGFtb08zR2ZFUWd0cEVsWVJjMXl3?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-12T00:38:15.641Z",
+      "pubDate": "2026-11-12T00:13:46.084Z",
+      "pubDateText": "2 jam lalu",
+      "category": "kesehatan",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Penyebab Sulit Hamil Berbeda, Penanganan Tak Selalu IVF",
+      "link": "https://news.google.com/read/CBMisAFBVV95cUxPbjBTN3hncHJPNW5fU29vZUhCX0xzMV80bTlVRTVHeHZEYmJiVEhiQ0tFX1pUTTFXUlVnc0FkQ0lmT09NbWdHd3NXUUJOMzR5QmFTdEpBbFBLTldzVWJmT1l5d1JfNDJWejJCalRucWE1UklwN3MxMDdodDhkX21QZlpEemg2R3Q1X2dtcmtxWVc4ZjVqejFsNUNCZEJpMTZzclJqM0NfS2U0Nmt5WnRoUdIBngFBVV95cUxOLUJraGl3ZWt5NlJXcXlBaVA0aDlXRlB4aDcyR281RU8yT0ppNm00SUkzVGp5clZsbmZCbzRJSTRZWjhMcGJhNXd2SGFUZHNnbWdzYzM5cTJuMzJFWWsxa29QdnZQbzc1em5mZ2NGdUZQR1ZsUVRKX001RmJoeE94cEp3U3lFeDY2cGlfR18yckU5a1dZS29yeFV0QkRlZw?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T12:13:46.084Z",
+      "pubDateText": "14 jam lalu",
+      "category": "kesehatan",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Suka Makan Kacang Tanah? Studi Temukan Manfaatnya untuk Otak",
+      "link": "https://news.google.com/read/CBMiwgFBVV95cUxQc1YwOXhqdEdZTVJ4bmFjSlFacjQ1TG90Z0w0bjQyazI2ZTBiSUV3TlVrZklKZzg1a3Zpb0sxVUVMSnRvc2xEV0Y2NEItM19fTXVtWEZtVFZ4MXI5T1F3V3FuTTE2ZGxYOGtfek8xc0RibnczaUhzclhURi14T2hHQnFvN1VrZVJqb1hLOGJmY1J4Xzg3blNYeHJ4VGNpN0taVGZJbTU3ejNyQjB5TU5KTFo1b21vT3lVMlZLbjBsSW5mQdIBxwFBVV95cUxOWlFEVkJ6NzRWdXZqVW1TUU56bzAzaTdJSGpDNGdOUWdhaTFKZm84WDU2TWxYQzFkRk13YmoxQWtiOFd3NW1jS09NNmtHeVhQODRhaUlKTzBNS2RxUWxMT0dxY0JtTHJRY1pZOHZHTEphcHZCUkFRUk96RlNfYWlmTENONDVzaWdrei1ua0V5VEQxTTk2c0tyTEU1Y0Vhc1l6WXRYb1VsX3IxRUNrQTJUXzBFSkQ1cVY0NHkwUUtsUnNZeGpSSFBN?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-12T01:13:46.084Z",
       "pubDateText": "1 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
@@ -615,7 +615,7 @@
     {
       "title": "Cukup 4 Menit Sehari! Aktivitas Fisik Singkat Ini Turunkan Risiko Demensia",
       "link": "https://news.google.com/read/CBMiuAFBVV95cUxQWHFnMzBacS1fTWRyYk1NS3NVZEIxS1k5d2IyR0Y4RnpmUnN2SnFVUVhSYXh0T21hNnVMWDZuRVI5ZzdlRHZYYTZSNUlGdFF4enVXZUpacWhFQXN2TnBIOWtYazdfVUVxTERLMlZMUHRUMG9nYkprSWR5VTNuQlBQQm9UZmFENzVCWmRDRkNDekk3amdkM2I5bnl1enRfVWViaHZxQXYtWW0wY043cG9pZEhHVzBzeEFP?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
@@ -623,24 +623,24 @@
     {
       "title": "Benarkah Stres Bisa Memengaruhi Kesehatan Pencernaan? Ini Kata Pakar",
       "link": "https://news.google.com/read/CBMivwFBVV95cUxNV3pNcjJZalhmMTBSWS1SM0NZbU1id1NzM0lzazI2X2lnaUdOSnVrQ3hNSkdVV3RiTzc4NmxyNFQ0RHZrUENLc2I3QXktSlFJYXF1TzRhSUhMOEVHbjBCSTVXeXpuZzgzSlJ5bXpZUTRTd2YtMXZMeTVJdndIU091WHR0akl5VmRvalBWbVhkd3liMmwwYl9uRWpaYk05djBiWVBxUmhGWWhPZHRaWk5PbkswUXc4U1BiM1FTSGR3aw?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T11:38:15.641Z",
-      "pubDateText": "14 jam lalu",
-      "category": "kesehatan",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "Kata Studi, 8 Jenis Diet Ini Terbukti Perlambat Penuaan Biologis",
-      "link": "https://news.google.com/read/CBMiygFBVV95cUxNdzJCZkYtTVpiRjd4TzFZdUdNMkFRNy1PcE0xYllacmZzYWhBVnIzQUNGU0Jna25JWlpNN3k4REZsd19VVXpPWHBXSGpnbFFHVlFlZ015THk5S0V3bEtBWkRlUFkyTDAyQ29CeUtLU2YxVkt5Zzg3WWdxR0lsNlltRXBqeG1BOERwOS1mZ2dIandveDhYV2tXN2Y1LXhmbU5tOWs5MGpybDRBazRSdERUVzRKeWdQRm5uLUtGZkxlMTZEOUdHTHVldW53?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-11T19:38:15.641Z",
-      "pubDateText": "6 jam lalu",
+      "pubDate": "2026-11-11T11:13:46.084Z",
+      "pubDateText": "15 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
     },
     {
       "title": "Kasus DBD di Pragaan Sumenep Meningkat, Puskesmas Bagikan Abate Gratis untuk Warga",
       "link": "https://news.google.com/read/CBMiyAFBVV95cUxOdm1wa3JyNDh1LThELWRvaUsxdjI5M2IzcXlyUFF2R0kteWJjdkQ4bnEwamJ0ZGZzV0Z5ekZsOTVLekFIUGpRclQzaVpScHVlNXZycDV2bll0UkJDZUtCV09mWVE5SEZaRW5pQ09OcEJrUVJxV25JcVVLaF82ZUlHUXEtajlzTjg5OEVUTzE0ZHF3VnIyVHp5R2VOajRmMmwxNTVEcE5QcW5SRUVXcTJ0ekR6NGFKTWppSnM0UEQ3bGx4M190WThhWA?hl=id&gl=ID&ceid=ID%3Aid",
-      "pubDate": "2026-11-10T01:38:15.641Z",
+      "pubDate": "2026-11-10T02:13:46.084Z",
       "pubDateText": "2 hari lalu",
+      "category": "kesehatan",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "Kata Studi, 8 Jenis Diet Ini Terbukti Perlambat Penuaan Biologis",
+      "link": "https://news.google.com/read/CBMiygFBVV95cUxNdzJCZkYtTVpiRjd4TzFZdUdNMkFRNy1PcE0xYllacmZzYWhBVnIzQUNGU0Jna25JWlpNN3k4REZsd19VVXpPWHBXSGpnbFFHVlFlZ015THk5S0V3bEtBWkRlUFkyTDAyQ29CeUtLU2YxVkt5Zzg3WWdxR0lsNlltRXBqeG1BOERwOS1mZ2dIandveDhYV2tXN2Y1LXhmbU5tOWs5MGpybDRBazRSdERUVzRKeWdQRm5uLUtGZkxlMTZEOUdHTHVldW53?hl=id&gl=ID&ceid=ID%3Aid",
+      "pubDate": "2026-11-11T19:13:46.084Z",
+      "pubDateText": "7 jam lalu",
       "category": "kesehatan",
       "source": "browser-scrape"
     }
