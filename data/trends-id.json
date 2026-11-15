@@ -1,11 +1,11 @@
 {
   "source": "google-trends-id",
-  "lastUpdated": "2026-11-15T19:34:55.998Z",
+  "lastUpdated": "2026-11-15T20:09:29.706Z",
   "items": [
     {
       "title": "pesisir",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "20K+",
       "started": "12 hours ago",
       "source": "browser-scrape"
@@ -13,7 +13,7 @@
     {
       "title": "prancis vs turki",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "10K+",
       "started": "18 hours ago",
       "source": "browser-scrape"
@@ -21,87 +21,79 @@
     {
       "title": "belgia vs italia",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "10K+",
-      "started": "19 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "ao3",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "20K+",
-      "started": "11 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "belarus vs albania",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "10K+",
-      "started": "19 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "kroasia vs ceko",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "5K+",
-      "started": "16 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "deportivo vs fc barcelona femení",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "5K+",
-      "started": "2 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "inggris vs spanyol",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "5K+",
-      "started": "22 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "finlandia vs san marino",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "5K+",
-      "started": "13 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "spain vs england",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
-      "approxTraffic": "2K+",
-      "started": "10 hours ago",
-      "source": "browser-scrape"
-    },
-    {
-      "title": "latvia vs armenia",
-      "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "10K+",
       "started": "20 hours ago",
       "source": "browser-scrape"
     },
     {
-      "title": "cawapres pengganti gibran",
+      "title": "ao3",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "20K+",
+      "started": "11 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "kroasia vs ceko",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "5K+",
-      "started": "14 hours ago",
+      "started": "17 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "inggris vs spanyol",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "5K+",
+      "started": "23 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "belarus vs albania",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "10K+",
+      "started": "19 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "spain vs england",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "2K+",
+      "started": "10 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "deportivo vs fc barcelona femení",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "5K+",
+      "started": "3 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "latvia vs armenia",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "10K+",
+      "started": "21 hours ago",
       "source": "browser-scrape"
     },
     {
       "title": "sufmi dasco",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "5K+",
+      "started": "15 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "finlandia vs san marino",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "5K+",
       "started": "14 hours ago",
       "source": "browser-scrape"
@@ -109,7 +101,7 @@
     {
       "title": "persebaya vs western australia",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "10K+",
       "started": "9 hours ago",
       "source": "browser-scrape"
@@ -117,9 +109,17 @@
     {
       "title": "sudono salim",
       "link": "https://trends.google.com/trending/rss?geo=ID",
-      "pubDate": "2026-11-15T19:34:55.998Z",
+      "pubDate": "2026-11-15T20:09:29.706Z",
       "approxTraffic": "2K+",
-      "started": "7 hours ago",
+      "started": "8 hours ago",
+      "source": "browser-scrape"
+    },
+    {
+      "title": "france vs turkey",
+      "link": "https://trends.google.com/trending/rss?geo=ID",
+      "pubDate": "2026-11-15T20:09:29.706Z",
+      "approxTraffic": "1K+",
+      "started": "6 hours ago",
       "source": "browser-scrape"
     }
   ]
